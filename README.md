@@ -3,7 +3,7 @@
 (Using a GitHub README as my website! YES!)
 
 <p align="center">
-  <img width="200" height="200" src="https://user-images.githubusercontent.com/9762897/224155271-80f5a052-163f-4789-93c8-6fab75db6f1d.png">
+  <img width="200" height="200" src="https://user-images.githubusercontent.com/9762897/224156163-bc02159b-b3a2-49f2-b31e-1b40925db81e.png">
 </p>
 
 ## Hi
