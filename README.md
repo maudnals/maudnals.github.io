@@ -8,6 +8,15 @@
 
 ## Hi
 
+<p style="max-width: 30ch">
+Hi, I'm Maud. I'm a Developer Relations Engineer.
+I specialize on security, privacy and identity on the web. I currently work at Google on the Chrome team. 
+
+My **favorite** things to work on are **web security**, **demos**, and **(open-source) developer tools and libraries**. 
+
+I have experience producing educational content for developers, building tools and demos for developers, and speaking to and mingling with developer communities to listen to their ideas and channel their feedback to product teams.
+</p>
+
 Hi, I'm Maud. I'm a Developer Relations Engineer.
 I specialize on security, privacy and identity on the web. I currently work at Google on the Chrome team. 
 
