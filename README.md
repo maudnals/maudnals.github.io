@@ -10,3 +10,6 @@ I build and help improve open-source developer tooling in JavaScript and TypeScr
 ### Write-ups and visual docs
 
 ### Public speaking, videos
+
+### Contact
+Twitter: [@maudnals](https://twitter.com/maudnals?lang=en)
