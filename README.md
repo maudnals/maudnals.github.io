@@ -1,6 +1,6 @@
 # maudnals (Maud Nalpas)
 
-(uh, just using a GitHub README as my website)
+(using a GitHub README as my website!)
 
 ## Hi
 
@@ -27,11 +27,11 @@ I have experience producing educational content for developers, building tools a
 
 ## Developer tools and demos I've built
 
-* https://www.npmjs.com/package/strict-csp-html-webpack-plugin
-* Lead on Noise Lab
-* ARA end-to-end
-* Various demos for specific web APIs or behaviors: [Referrer](https://site-one.glitch.me/stuff/detail?tag=blue), [Reporting API](link TBD)
-* [xss](link TBD)
+* TBD https://www.npmjs.com/package/strict-csp-html-webpack-plugin
+* TBD Lead on Noise Lab
+* TBD ARA end-to-end
+* TBD Various demos for specific web APIs or behaviors: [Referrer](https://site-one.glitch.me/stuff/detail?tag=blue), [Reporting API](link TBD)
+* TBD [xss](link TBD)
 
 ## Educational content I produced
 
@@ -63,6 +63,7 @@ As lead/coordinator and contributor:
 * Introducing the privacy budget (Chrome Developers Summmit · 2020) `privacy`
 * Building your first WebAuthn for authentication with a security key `auth/identity`
 * Prepare for a more private web (Google I/O · 2021) `security`
+* TBD video series on Noise Lab
 
 ## Engineering contributions
 
