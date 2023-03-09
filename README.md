@@ -1,11 +1,12 @@
-<div style="background-color: red;">
 # maudnals.github.io
 TL;DR of my work at Google and elsewhere
 
+**Security** and **Privacy**
+
 ### Developer tools
 
-### Security
+I build and help improve open-source developer tooling in JavaScript and TypeScript.
 
-### Public speaking
-  
-</div>
+### Write-ups and visual docs
+
+### Public speaking, videos
