@@ -11,7 +11,7 @@
 Hi, I'm Maud. I'm a Developer Relations Engineer.
 I specialize on security, privacy and identity on the web. I currently work at Google on the Chrome team. 
 
-My _favorite_ things to work on are **web security** and **open-source demos and developer tools**. 
+My **favorite** things to work on are **web security**, **demos**, and **(open-source) developer tools and libraries**. 
 
 I have experience producing educational content for developers, building tools and demos for developers, and speaking to and mingling with developer communities to listen to their ideas and channel their feedback to product teams.
 
@@ -84,7 +84,7 @@ As lead/coordinator and contributor:
 
 Twitter: [@maudnals](https://twitter.com/maudnals?lang=en)
 
-I don't tweet a lot!
+(I don't tweet a whole lot)
 
 ## More about me
 
