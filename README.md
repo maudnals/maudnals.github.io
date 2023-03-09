@@ -8,15 +8,6 @@
 
 ## Hi
 
-<p style="max-width: 30ch">
-Hi, I'm Maud. I'm a Developer Relations Engineer.
-I specialize on security, privacy and identity on the web. I currently work at Google on the Chrome team. 
-
-My **favorite** things to work on are **web security**, **demos**, and **(open-source) developer tools and libraries**. 
-
-I have experience producing educational content for developers, building tools and demos for developers, and speaking to and mingling with developer communities to listen to their ideas and channel their feedback to product teams.
-</p>
-
 Hi, I'm Maud. I'm a Developer Relations Engineer.
 I specialize on security, privacy and identity on the web. I currently work at Google on the Chrome team. 
 
@@ -77,6 +68,7 @@ As lead/coordinator and contributor:
 * Building your first WebAuthn for authentication with a security key `auth/identity`
 * Prepare for a more private web (Google I/O · 2021) `security`
 * TBD video series on Noise Lab
+* TBD multiple office hours on ARA
 
 ## Engineering contributions
 
@@ -88,6 +80,11 @@ As lead/coordinator and contributor:
 ## Developer communications
 
 * TBD see api-dev
+
+## Programs and coordination
+
+* GDE
+* PS OH
 
 ## Say hi
 
