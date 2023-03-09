@@ -9,7 +9,7 @@ I specialize on security, privacy and identity on the web. I currently work at G
 
 My _favorite_ things to work on are **web security** and **open-source demos and developer tools**. 
 
-I have experience producing educational content for developers, speaking to and mingling with developer communities to listen to their ideas and channel their feedback to product teams, and building tools and demos for developers.
+I have experience producing educational content for developers, speaking to and mingling with developer communities to listen to their ideas and channel their feedback to product teams, building tools and demos for developers, helping developers troubleshoot their issues.
 
 ## Areas I have experience with
 
@@ -27,13 +27,43 @@ I have experience producing educational content for developers, speaking to and 
 
 ## Developer tools and demos I've built
 
-## Educational content I produced
-### Articles
-* [Referrer best practcies](https://web.dev/referrer-best-practices/) 
-### Other content
-* I was the main reviewer for [Privacy chapter of the Web Almana 2021](https://almanac.httparchive.org/en/2021/privacy)
+* Lead on Noise Lab
+* Various demos: [Referrer](https://site-one.glitch.me/stuff/detail?tag=blue), [Reporting API](link TBD), [xss](link TBD)
 
-## Public speaking
+## Educational content I produced
+
+### Articles and diagrams
+
+As author:
+* [Referrer best practices](https://web.dev/referrer-best-practices/) 
+* [Monitor your web application with the Reporting API](https://developer.chrome.com/articles/reporting-api/)
+* [Migrate to Reporting API v1](https://developer.chrome.com/blog/reporting-api-migration/)
+* [Experiment with summary report design decisions](https://developer.chrome.com/docs/privacy-sandbox/summary-reports/design-decisions/)
+* [How to use HTTPS for local development](https://web.dev/how-to-use-local-https/)
+* [When to use HTTPS for local development](https://web.dev/when-to-use-local-https/)
+* [Debugging guide for Attribution Reporting](https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-debugging/)
+* [Attribution Reporting series](https://developer.chrome.com/authors/maudn/)
+
+As co-author or reviewer:
+* [Security headers quick reference](https://web.dev/security-headers/)
+* [Privacy chapter of the Web Almana 2021](https://almanac.httparchive.org/en/2021/privacy)
+
+As lead/coordinator and contributor:
+* [web.dev/learn/privacy](Learn Privacy)
+* 
+
+### Videos
+* Privacy budget
+
+### Public speaking
+
+
+## Engineering contributions
+* MDN and DevTools contributions
+* Chromium.org bugs
+
+## Developer communications
+Lead for api-dev
 
 ## Say hi
 
