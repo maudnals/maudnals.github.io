@@ -18,13 +18,15 @@ My 🖤 **favorite** things to work on:
 * **Demos**
 * **(Open-source) developer tools and libraries**. 
 
+## Areas I have experience in
+
+### Type of work
+
 Aside from regular software engineering work, I have experience:
 * Producing educational content for developers
 * Building developer tools and demos
 * Speaking to developer communities
 * Mingling with these communities to collect their ideas and channel their feedback to product teams.
-
-## Areas I have experience in
 
 ### Languages / Frameworks
 
@@ -40,12 +42,7 @@ Aside from regular software engineering work, I have experience:
 
 ## Developer tools and demos I've built
 
-See [Developer tools and demos]()
-* TBD https://www.npmjs.com/package/strict-csp-html-webpack-plugin
-* TBD Lead on Noise Lab
-* TBD ARA end-to-end
-* TBD Various demos for specific web APIs or behaviors: [Referrer](https://site-one.glitch.me/stuff/detail?tag=blue), [Reporting API](link TBD)
-* TBD [xss](link TBD)
+See [Developer tools and demos](https://maudnals.github.io/tools-demos)
 
 ## Educational content I produced
 
@@ -59,6 +56,9 @@ See [Talks](https://maudnals.github.io/talks)
 
 ## Engineering contributions
 
+See [Other contributions](https://maudnals.github.io/eng-contributions)
+
+* Code: see all demos
 * TBD MDN and DevTools contributions
 * TBD Chromium.org bugs
 * TBD WebKit bugs
@@ -66,9 +66,13 @@ See [Talks](https://maudnals.github.io/talks)
 
 ## Developer communications
 
+See [Developer comms](https://maudnals.github.io/developer-comms)
+
 * TBD see api-dev
 
 ## Programs and coordination
+
+See [Programs](https://maudnals.github.io/programs)
 
 * GDE
 * PS OH
