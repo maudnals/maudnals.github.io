@@ -9,16 +9,22 @@
 ## Hi
 
 Hi, I'm Maud. I'm a Developer Relations Engineer.
-I specialize in security, privacy and identity on the web. I currently work at Google on the Chrome team. 
+
+I specialize in security, privacy and identity on the web. 
+I currently work at Google on the Chrome team. 
 
 My 🖤 **favorite** things to work on:
 *  **Web security**
 * **Demos**
 * **(Open-source) developer tools and libraries**. 
 
-I have experience producing educational content for developers, building tools and demos, and speaking to / mingling with developer communities to listen to their ideas and channel their feedback to product teams.
+Aside from regular software engineering work, I have experience:
+* Producing educational content for developers
+* Building developer tools and demos
+* Speaking to developer communities
+* Mingling with these communities to collect their ideas and channel their feedback to product teams.
 
-## Areas I have experience with
+## Areas I have experience in
 
 ### Languages / Frameworks
 
@@ -34,6 +40,7 @@ I have experience producing educational content for developers, building tools a
 
 ## Developer tools and demos I've built
 
+See [Developer tools and demos]()
 * TBD https://www.npmjs.com/package/strict-csp-html-webpack-plugin
 * TBD Lead on Noise Lab
 * TBD ARA end-to-end
@@ -44,24 +51,10 @@ I have experience producing educational content for developers, building tools a
 
 ### Articles and diagrams
 
-Things I fully authored:
-* [Referrer best practices](https://web.dev/referrer-best-practices/) `privacy`
-* [Monitor your web application with the Reporting API](https://developer.chrome.com/articles/reporting-api/) `monitoring` `security`
-* [Migrate to Reporting API v1](https://developer.chrome.com/blog/reporting-api-migration/) `monitoring` `security`
-* [How to use HTTPS for local development](https://web.dev/how-to-use-local-https/) `security`
-* [When to use HTTPS for local development](https://web.dev/when-to-use-local-https/) `security`
-* [Debugging guide for Attribution Reporting](https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-debugging/) `privacy`
-* [Attribution Reporting series](https://developer.chrome.com/authors/maudn/) `privacy`
-
-Things I co-authored or reviewed:
-* [Security headers quick reference](https://web.dev/security-headers/) `privacy` `security`
-* [Privacy chapter of the Web Almanac 2021](https://almanac.httparchive.org/en/2021/privacy) `privacy`
-
-Things I lead/coordinated and contributed to:
-* [web.dev/learn/privacy](Learn Privacy)
-* [Experiment with summary report design decisions](https://developer.chrome.com/docs/privacy-sandbox/summary-reports/design-decisions/) `privacy`
+See [Educational content](https://maudnals.github.io/articles)
 
 ### Videos / Workshops / Public speaking
+
 * XSS protections with strict CSP (Chrome Tech Nights · Tokyo, Japan · 2023) `security`
 * Passkeys, autofill, 3P cookies: the Web in 2023 (Meetup · Berlin, Germany · 2023) `security` `privacy` `auth/identity`
 * The Hitchhiker's guide to web privacy (Fronteers + DevFest · Nantes, France + Utrecht, Netherlands · 2022) `privacy`
