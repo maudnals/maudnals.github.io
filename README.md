@@ -44,7 +44,7 @@ I have experience producing educational content for developers, building tools a
 
 ### Articles and diagrams
 
-As author:
+Things I fully authored:
 * [Referrer best practices](https://web.dev/referrer-best-practices/) `privacy`
 * [Monitor your web application with the Reporting API](https://developer.chrome.com/articles/reporting-api/) `monitoring` `security`
 * [Migrate to Reporting API v1](https://developer.chrome.com/blog/reporting-api-migration/) `monitoring` `security`
@@ -53,11 +53,11 @@ As author:
 * [Debugging guide for Attribution Reporting](https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-debugging/) `privacy`
 * [Attribution Reporting series](https://developer.chrome.com/authors/maudn/) `privacy`
 
-As co-author or reviewer:
+Things I co-authored or reviewed:
 * [Security headers quick reference](https://web.dev/security-headers/) `privacy` `security`
 * [Privacy chapter of the Web Almanac 2021](https://almanac.httparchive.org/en/2021/privacy) `privacy`
 
-As lead/coordinator and contributor:
+Things I lead/coordinated and contributed to:
 * [web.dev/learn/privacy](Learn Privacy)
 * [Experiment with summary report design decisions](https://developer.chrome.com/docs/privacy-sandbox/summary-reports/design-decisions/) `privacy`
 
