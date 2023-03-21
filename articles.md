@@ -1,3 +1,5 @@
+## Articles
+
 Things I fully authored:
 * [Referrer best practices](https://web.dev/referrer-best-practices/) `privacy`
 * [Monitor your web application with the Reporting API](https://developer.chrome.com/articles/reporting-api/) `monitoring` `security`
