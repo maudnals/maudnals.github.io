@@ -16,7 +16,11 @@ I currently work at Google on the Chrome team.
 My 🖤 **favorite** things to work on:
 *  **Web security**
 * **Demos**
-* **(Open-source) developer tools and libraries**. 
+* **(Open-source) developer tools and libraries** that enhance developer experience. 
+
+My background is web / software development in a fullstack capacity, leaning towards frontend. I've worked extensively with JavaScript, TypeScript, React, and React native. I've also had a stint as a UX/UI designer.
+
+I live in Berlin, Germany. I'm fluent in English, French and German.
 
 ## Areas I have experience in
 
@@ -26,7 +30,8 @@ Aside from regular software engineering work, I have experience:
 * Producing educational content for developers
 * Building developer tools and demos
 * Speaking to developer communities
-* Mingling with these communities to collect their ideas and channel their feedback to product teams.
+* Mingling with these communities to collect their ideas, design solutions, and channel these proposals to product teams
+* Collaborating closely with Product Managers, Engineering teams, Design teams, and Customer Success teams.
 
 ### Languages / Frameworks
 
@@ -40,57 +45,27 @@ Aside from regular software engineering work, I have experience:
 * `privacy`: private advertising techniques, privacy on the web, differential privacy techniques
 * `auth/identity`: WebAuthn, Passkeys
 
-## Developer tools and demos I've built
+## Portfolio: examples of my work
 
-See [Developer tools and demos](https://maudnals.github.io/tools-demos)
+* [Developer tools and demos I've built](https://maudnals.github.io/tools-demos)
+* Educational content I produced for developers:
+  * [Articles and diagrams](https://maudnals.github.io/articles)
+  * [Videos / Workshops / Talks / Public speaking](https://maudnals.github.io/talks)
+* [Engineering contributions I've made](https://maudnals.github.io/eng-contributions)
+* [Developer outreach](https://maudnals.github.io/developer-comms) - TBD see api-dev, ara repo, reporting API.. etc
+* [Programs and coordination](https://maudnals.github.io/programs) - TBD GDE, PS OH
 
-## Educational content I produced
-
-### Articles and diagrams
-
-See [Articles](https://maudnals.github.io/articles)
-
-### Videos / Workshops / Talks / Public speaking
-
-See [Talks](https://maudnals.github.io/talks)
-
-## Engineering contributions
-
-See [Other contributions](https://maudnals.github.io/eng-contributions)
-
+Engineering contributions
 * Code: see all demos
 * TBD MDN and DevTools contributions
 * TBD Chromium.org bugs
 * TBD WebKit bugs
 * TBD Permissions-Policy discussions
 
-## Developer communications
-
-See [Developer comms](https://maudnals.github.io/developer-comms)
-
-* TBD see api-dev
-
-## Programs and coordination
-
-See [Programs](https://maudnals.github.io/programs)
-
-* GDE
-* PS OH
-
-## Say hi
+## Get in touch
 
 Twitter: [@maudnals](https://twitter.com/maudnals?lang=en)
 
-(I don't tweet a whole lot)
+(I don't tweet a whole lot, I like to connect in person - Check above the list of the events I talked and connected with developers at)
 
-## More about me
 
-My background is frontend / full-stack development. I've worked extensively with JavaScript, TypeScript, React, and React native. I've also had a stint as a UX/UI designer.
-
-I love my job when I get to:
-* Serve the developer community;
-* Build tools that improve developer experience;
-* Author and deliver content (articles, videos, code/demos, conference talks) to guide people through adoption. I collaborate with Product Managers, Engineering teams, Designers and Customer Success teams;
-* Collect developer feedback → Design solutions to address this feedback → Channel these proposals to the relevant product teams.
-
-I live in Berlin, Germany. I'm fluent in English, French and German.
