@@ -41,9 +41,9 @@ Aside from regular software engineering work, I have experience:
 
 ### Domains
 
-* `security`: XSS and its mitigations (CSP, Trusted Types); client-side web security and security headers in general
-* `privacy`: private advertising techniques, privacy on the web, differential privacy techniques
-* `auth/identity`: WebAuthn, Passkeys
+🔒 **Security**. XSS and its mitigations (CSP, Trusted Types); client-side web security and security headers in general
+🕵🏽 **Privacy**. Privacy on the web, third-parties, private advertising techniques, differential privacy techniques.
+👤 **Authentication / Identity**. WebAuthn, Passkeys.
 
 ## Portfolio: examples of my work
 
