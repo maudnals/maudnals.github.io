@@ -68,6 +68,6 @@ Engineering contributions
 
 Twitter: [@maudnals](https://twitter.com/maudnals?lang=en)
 
-(I don't tweet a whole lot, I like to connect in person - Check above the list of the events I talked and connected with developers at)
+(I don't tweet a whole lot, I like to connect in person)
 
 
