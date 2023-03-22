@@ -30,7 +30,7 @@ Aside from regular software engineering work, I have experience:
 * Producing educational content for developers
 * Building developer tools and demos
 * Speaking to developer communities
-* Mingling with these communities to collect their ideas, design solutions, and channel these proposals to product teams
+* Mingling with these communities to collect their pain points and ideas, design solutions, and channel these proposals to product teams
 * Collaborating closely with Product Managers, Engineering teams, Design teams, and Customer Success teams.
 
 ### Languages / Frameworks
