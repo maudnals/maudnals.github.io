@@ -54,7 +54,7 @@ Aside from regular software engineering work, I have experience:
   * [Articles and diagrams](https://maudnals.github.io/articles)
   * [Videos / Workshops / Talks / Public speaking](https://maudnals.github.io/talks)
 * [Engineering contributions I've made](https://maudnals.github.io/eng-contributions)
-* [Developer outreach](https://maudnals.github.io/developer-comms) - TBD see api-dev, ara repo, reporting API.. etc
+* [Developer outreach](https://maudnals.github.io/developer-comms) - TBD see api-dev, ara repo, reporting API.. etc + https://www.youtube.com/watch?v=5t83ebP71Yw&t=1s
 * [Programs and coordination](https://maudnals.github.io/programs) - TBD GDE, PS OH
 
 Engineering contributions
