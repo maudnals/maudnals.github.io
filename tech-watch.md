@@ -3,4 +3,4 @@
 * [This blog is hosted on my Android phone](https://androidblog.a.pinggy.io/)
 * [MusicLM](https://google-research.github.io/seanet/musiclm/examples/) and [MusicLM site](https://aitestkitchen.withgoogle.com/experiments/music-lm)
 * [DevTools summary I/O 2023](https://io.google/2023/program/58079bc3-b0bd-44e1-94ff-08589997014a/)
-* [Introducing WebGPU](https://www.youtube.com/watch?v=m6T-Mq1BPXg)
+* [🎥 Introducing WebGPU](https://www.youtube.com/watch?v=m6T-Mq1BPXg)
