@@ -1,5 +1,5 @@
 ### 2023.07.21
-* [Ai and web development](https://portal.gitnation.org/contents/ai-and-web-development-hype-or-reality)
+* [AI and web development](https://portal.gitnation.org/contents/ai-and-web-development-hype-or-reality)
 
 ### 2023.06.08
 * ⭐️ [DevEx: What Actually Drives Productivity](https://queue.acm.org/detail.cfm?id=3595878)
