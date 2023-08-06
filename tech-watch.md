@@ -1,3 +1,6 @@
+### 2023.08.06
+* 👩🏻‍💻 [WebGL codelab](https://developers.google.com/codelabs/maps-platform/webgl#0)
+
 ### 2023.07.21
 * [AI and web development](https://portal.gitnation.org/contents/ai-and-web-development-hype-or-reality)
 
