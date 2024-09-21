@@ -14,7 +14,7 @@ I then moved onto Developer Relations Engineering.
 I love being a **bridge between developers and product/eng teams**. I build developer tools, write demos and docs, run developer research, design dev tooling solutions, and channel feedback to product teams.
 I also speak at conferences.
 
-*Today, I focus on web security, privacy, authentication and AI.**
+**Today, I focus on 🔐 web security, privacy, authentication and 🔮 AI.**
 
 In the physical world, I live in Paris 🇫🇷. You can find me roaming around taking street pictures. Online, find me on [LinkedIn](https://www.linkedin.com/in/maudnalpas/) (less so on [X](https://x.com/maudnals?lang=en)).
 
