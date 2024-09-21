@@ -1,7 +1,7 @@
 # Hi, I'm Maud. I'm a Developer Relations Engineer.
 
 <p align="center">
-  <img width="300" alt="A screenshot of multicolor triangles implemented through 3d programming in C++" src="https://gist.github.com/user-attachments/assets/8894d445-f6b4-40ad-9925-c1eb1bd5c3d3"><br/>
+  <img width="350" alt="A screenshot of multicolor triangles implemented through 3d programming in C++" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/triangles.jpg?raw=true"><br/>
   <sup>How it all started! Qt/OpenGL with C++</sup>
 </p>
 
@@ -53,8 +53,13 @@ Right now, I'm a Developer Relations Engineer at Google working on `Chrome`. In 
 | [Prepare for a more private web](https://www.youtube.com/watch?v=1g2uQfP1Q3U)  |  🕸️ Google I/O online · 2021 |
 
 <p align="center">
-  <img width="300" alt="Audience watching Maud's security talk in Japan" src="https://gist.github.com/user-attachments/assets/771c14b2-a0d9-4d0d-ab7c-64c6cabdffad"><br/>
+  <img width="350" alt="Audience watching Maud's security talk in Japan" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/tech-night-talk-japan.jpg?raw=true"><br/>
   <sup>One of my favorite talks ❤️ Web security, Tokyo</sup>
+</p>
+
+<p align="center">
+  <img width="350" alt="Audience watching Maud's passkey talk in Paris" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/dotJS.jpeg?raw=true"><br/>
+  <sup>DotJS stage, 1000+ live attendees. 2024, Paris</sup>
 </p>
 
 ## ✏️ Articles and docs (selection)
@@ -89,6 +94,6 @@ Right now, I'm a Developer Relations Engineer at Google working on `Chrome`. In 
 - Hello worlds
 
 <p align="center">
-  <img width="300" alt="Painting being drawn in a terminal" src="https://user-images.githubusercontent.com/9762897/212710369-0e1050e8-6ada-461d-a292-376c8b297a10.gif"><br/>
+  <img width="350" alt="Painting being drawn in a terminal" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/artplz.gif?raw=true"><br/>
   <sup>My artplz project. Art in my terminal!<br/>It's dynamic and should work with <em>any</em> painter you enter as an CLI argument, because under the hood there's a Wikipedia scraper 🕶️</sup>
 </p>
