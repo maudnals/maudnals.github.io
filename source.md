@@ -5,14 +5,14 @@
   <sup>How it all started! Qt/OpenGL with C++</sup>
 </p>
 
-I started coding with C++ in 2013 and was quickly drawn to the `web`.
-Since 2015, I've built many web products using `JavaScript`, `TypeScript`, `React`, and React Native. I also had a stint as a `UX/UI` designer. I then moved onto Developer Relations Engineering.
-I love being a `bridge` between developers and product teams. I build developer tools, write demos and docs, run developer research, design dev tooling solutions, and channel feedback to product teams.
+I started coding with C++ in 2013 and was quickly drawn to the web.
+Since 2015, I've built many web products using JavaScript, TypeScript, React, and React Native. I also had a stint as a UX/UI designer. I then moved onto Developer Relations Engineering.
+I love being a bridge between developers and product teams. I build developer tools, write demos and docs, run developer research, design dev tooling solutions, and channel feedback to product teams.
 I also speak at conferences.
 
-I focus on `web security`, `privacy`, `authentication` and `AI`.
+I focus on web security, privacy, authentication and AI.
 
-Right now, I'm a Developer Relations Engineer at Google working on `Chrome`. In the physical world, I live in Paris 🇫🇷. You can find me roaming around taking street pictures. Online, find me on [LinkedIn](https://www.linkedin.com/in/maudnalpas/) (less so on [X](https://x.com/maudnals?lang=en)).
+Right now, I'm a Developer Relations Engineer at Google working on Chrome. In the physical world, I live in Paris 🇫🇷. You can find me roaming around taking street pictures. Online, find me on [LinkedIn](https://www.linkedin.com/in/maudnalpas/) (less so on [X](https://x.com/maudnals?lang=en)).
 
 ## ⭐ Open-source demos
 
@@ -81,10 +81,10 @@ Right now, I'm a Developer Relations Engineer at Google working on `Chrome`. In 
 
 ## 🤝 Misc OSS contributions
 
-- [Added one-time permission implementation](https://github.com/chromium/permission.site/commits?author=maudnals) to the Chrome permissions public demo
-- [Contributed dev guidance](https://github.com/passkeydeveloper/passkeys.dev/commits?author=maudnals) to passkeys.dev
-- [Improved onboarding docs](https://github.com/breadboard-ai/breadboard/commits?author=maudnals) for a Gen AI prototyping tool
-- I reviewed the [Privacy chapter of the Web Almanac 2021](https://almanac.httparchive.org/en/2021/privacy) `privacy`
+- I [added one-time permission implementation](https://github.com/chromium/permission.site/commits?author=maudnals) to the Chrome permissions public demo
+- I [contributed dev guidance](https://github.com/passkeydeveloper/passkeys.dev/commits?author=maudnals) to passkeys.dev
+- I [improved onboarding docs](https://github.com/breadboard-ai/breadboard/commits?author=maudnals) for a Gen AI prototyping tool
+- I reviewed the [Privacy chapter of the Web Almanac 2021](https://almanac.httparchive.org/en/2021/privacy)
 - I coordinated a [full course on web privacy](https://web.dev/learn/privacy)
 
 ## 🥤 Fun
