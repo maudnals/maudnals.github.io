@@ -22,6 +22,7 @@ Right now, I'm a Developer Relations Engineer at Google working on `Chrome`. In 
 - Autofill TBD
 - [Reporting API](https://developer.chrome.com/docs/capabilities/web-apis/reporting-api#demo_and_code)
 - [ROR (Passkey reuse across sites)](https://web.dev/articles/webauthn-related-origin-requests#demo)
+- Referrer demo TBD
 
 ## 👩🏻‍💻 Developer tooling
 
@@ -38,18 +39,18 @@ Right now, I'm a Developer Relations Engineer at Google working on `Chrome`. In 
 
 ## 🎙️ Talks
 
-- Security/Privacy/Authentication:
-  - [Passkeys, for a passwordless future](https://www.linkedin.com/feed/update/urn:li:activity:7214590199463342080/) · 🇫🇷 DotJS Paris · 2024
-  - [Passkeys 101](https://www.linkedin.com/feed/update/urn:li:activity:7133809102564020225/) · 🇩🇪 MunichJS · 2023
-  - [Passkeys workshop](https://authenticatecon.com/session/easy-passkeys-on-the-web-with-browser-autofill-with-the-chrome-team/) · 🇺🇸 Authenticate San Diego · 2023
-  - [XSS protections with strict CSP](https://docs.google.com/presentation/d/1MwxyhDJPDIx5orn6YIL6JJXOkZ_5aUyZ5181IIvZC4w/pub?start=false&loop=false&delayms=60000) 🇯🇵 Chrome Tech Nights Tokyo · 2023
-  - [Passkeys, autofill, 3P cookies: the Web in 2023](https://www.linkedin.com/feed/update/urn:li:activity:6930220375825915905/) · 🇩🇪 Berlin GDE Summit · 2023
-  - [The hitchhiker's guide to web privacy](https://www.youtube.com/watch?v=9UgS81AaMU4) · 🇳🇱🇫🇷 Fronteers Utrecht + DevFest Nantes · 2022
-  - Prepare for a more private web (Google I/O · 2021) TBD
-  - [HAUNTED: Chrome's vision for post-Spectre web development](https://snyk.io/videos/haunted-chromes-vision-post-spectre-web-development/) · 🕸️ SnykCon online · 2021
-  - [Introducing the privacy budget](https://www.youtube.com/watch?v=0STgfjSA6T8) · 🕸️ Chrome Developers Summmit online · 2020
-- AI:
-  - [No buzz, just build: Practical on-device AI for web developers](https://io.google/2024/explore/47fc6e98-8359-4be0-b9b9-4bc7b28bd063/) · 🕸️ Google I/O online · 2024
+| Talk | Where & When |
+| :--- | ---: |
+| [No buzz, just build: client-side AI](https://io.google/2024/explore/47fc6e98-8359-4be0-b9b9-4bc7b28bd063/) | 🕸️ Google I/O online · 2024 |
+| [Passkeys, for a passwordless future](https://www.linkedin.com/feed/update/urn:li:activity:7214590199463342080/) | 🇫🇷 DotJS Paris · 2024 |
+| [Passkeys 101](https://www.linkedin.com/feed/update/urn:li:activity:7133809102564020225/) | 🇩🇪 MunichJS · 2023 |
+| [Passkeys workshop](https://authenticatecon.com/session/easy-passkeys-on-the-web-with-browser-autofill-with-the-chrome-team/) |  🇺🇸 Authenticate San Diego · 2023 |
+| [XSS protections with strict CSP](https://docs.google.com/presentation/d/1MwxyhDJPDIx5orn6YIL6JJXOkZ_5aUyZ5181IIvZC4w/pub?start=false&loop=false&delayms=60000)  |  🇯🇵 Chrome Tech Nights Tokyo · 2023 |
+| [Passkeys, autofill, 3P cookies: the Web in 2023](https://www.linkedin.com/feed/update/urn:li:activity:6930220375825915905/)  |  🇩🇪 Berlin GDE Summit · 2023 |
+| [The hitchhiker's guide to web privacy](https://www.youtube.com/watch?v=9UgS81AaMU4)   |   🇳🇱🇫🇷 Fronteers Utrecht + DevFest Nantes · 2022 |
+| [HAUNTED: Chrome's vision for post-Spectre web development](https://snyk.io/videos/haunted-chromes-vision-post-spectre-web-development/) |  🕸️ SnykCon online · 2021 |
+| [Introducing the privacy budget](https://www.youtube.com/watch?v=0STgfjSA6T8)  |  🕸️ Chrome Developers Summmit online · 2020 |
+| [Prepare for a more private web](https://www.youtube.com/watch?v=1g2uQfP1Q3U)  |  🕸️ Google I/O online · 2021 |
 
 <p align="center">
   <img width="300" alt="Audience watching Maud's security talk in Japan" src="https://gist.github.com/user-attachments/assets/771c14b2-a0d9-4d0d-ab7c-64c6cabdffad"><br/>
@@ -85,6 +86,7 @@ Right now, I'm a Developer Relations Engineer at Google working on `Chrome`. In 
 
 - [artplz](https://github.com/maudnals/artplz)
 - cssunrise TBD
+- Hello worlds
 
 <p align="center">
   <img width="300" alt="Painting being drawn in a terminal" src="https://user-images.githubusercontent.com/9762897/212710369-0e1050e8-6ada-461d-a292-376c8b297a10.gif"><br/>

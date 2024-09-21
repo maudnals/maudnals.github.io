@@ -7,5 +7,24 @@ body {
 }
 
 img {
-  margin: 0.5rem 0;
+  margin: 1.2rem 0 .2rem 0;
+}
+
+.markdown-style p {
+  line-height: 1.2lh;
+}
+
+dark-mode {
+  --width-mode: 5rem;
+  width: var(--width-mode);
+  position: fixed;
+  box-sizing: border-box;
+  /* 8px is the top: position as per the default stylesheet so we use the same */
+  left: calc(100vw - var(--width-mode) - 8px) !important;
+  z-index: 999;
+  border: solid 1px var(--color-border-muted);
+  background: var(--color-border-muted);
+  border-radius: 6px;
+  padding: 0.1rem .3rem;
+  text-align: center;
 }

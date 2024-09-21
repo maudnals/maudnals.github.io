@@ -17,7 +17,25 @@
 img {
   margin: 0.5rem 0;
 }
-</style>
+
+.markdown-style p {
+  line-height: 1.2lh;
+}
+
+dark-mode {
+  --width-mode: 5rem;
+  width: var(--width-mode);
+  position: fixed;
+  box-sizing: border-box;
+  /* 8px is the top: position as per the default stylesheet so we use the same */
+  left: calc(100vw - var(--width-mode) - 8px) !important;
+  z-index: 999;
+  border: solid 1px var(--color-border-muted);
+  background: var(--color-border-muted);
+  border-radius: 6px;
+  padding: 0.1rem .3rem;
+  text-align: center;
+}</style>
   </head>
   <body><dark-mode style="position: fixed; top: 8px; left: 10px; z-index: 999;" dark="Dark" light="Light" permanent="true"></dark-mode><script>const t=document;const e="_dark_mode_theme_";const s="permanent";const o="colorschemechange";const i="permanentcolorscheme";const h="light";const r="dark";const n=(t,e,s=e)=>{Object.defineProperty(t,s,{enumerable:true,get(){const t=this.getAttribute(e);return t===null?"":t},set(t){this.setAttribute(e,t)}})};const c=(t,e,s=e)=>{Object.defineProperty(t,s,{enumerable:true,get(){return this.hasAttribute(e)},set(t){if(t){this.setAttribute(e,"")}else{this.removeAttribute(e)}}})};class a extends HTMLElement{static get observedAttributes(){return["mode",h,r,s]}LOCAL_NANE=e;constructor(){super();this.t()}connectedCallback(){n(this,"mode");n(this,r);n(this,h);c(this,s);const a=localStorage.getItem(e);if(a&&[h,r].includes(a)){this.mode=a;this.permanent=true}if(this.permanent&&!a){localStorage.setItem(e,this.mode)}const l=[h,r].includes(a);if(this.permanent&&a){this.o()}else{if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches){this.mode=r;this.o()}if(window.matchMedia&&window.matchMedia("(prefers-color-scheme: light)").matches){this.mode=h;this.o()}}if(!this.permanent&&!l){window.matchMedia("(prefers-color-scheme: light)").onchange=t=>{this.mode=t.matches?h:r;this.o()};window.matchMedia("(prefers-color-scheme: dark)").onchange=t=>{this.mode=t.matches?r:h;this.o()}}const d=new MutationObserver(((s,h)=>{this.mode=t.documentElement.dataset.colorMode;if(this.permanent&&l){localStorage.setItem(e,this.mode);this.i(i,{permanent:this.permanent})}this.h();this.i(o,{colorScheme:this.mode})}));d.observe(t.documentElement,{attributes:true});this.i(o,{colorScheme:this.mode});this.h()}attributeChangedCallback(t,s,o){if(t==="mode"&&s!==o&&[h,r].includes(o)){const t=localStorage.getItem(e);if(this.mode===t){this.mode=o;this.h();this.o()}else if(this.mode&&this.mode!==t){this.h();this.o()}}else if((t===h||t===r)&&s!==o){this.h()}if(t==="permanent"&&typeof this.permanent==="boolean"){this.permanent?localStorage.setItem(e,this.mode):localStorage.removeItem(e)}}o(){t.documentElement.setAttribute("data-color-mode",this.mode)}h(){this.icon.textContent=this.mode===h?"🌒":"🌞";this.text.textContent=this.mode===h?this.getAttribute(r):this.getAttribute(h)}t(){var s=this.attachShadow({mode:"open"});this.label=t.createElement("span");this.label.setAttribute("class","wrapper");this.label.onclick=()=>{this.mode=this.mode===h?r:h;if(this.permanent){localStorage.setItem(e,this.mode)}this.o();this.h()};s.appendChild(this.label);this.icon=t.createElement("span");this.label.appendChild(this.icon);this.text=t.createElement("span");this.label.appendChild(this.text);const o=`
 [data-color-mode*='dark'], [data-color-mode*='dark'] body {
@@ -124,6 +142,7 @@ customElements.define('markdown-style', MarkdownStyle);</script><markdown-style 
       <li>Autofill TBD</li>
       <li><a href="https://developer.chrome.com/docs/capabilities/web-apis/reporting-api#demo_and_code">Reporting API</a></li>
       <li><a href="https://web.dev/articles/webauthn-related-origin-requests#demo">ROR (Passkey reuse across sites)</a></li>
+      <li>Referrer demo TBD</li>
     </ul>
     <h2 id="-developer-tooling"><a class="anchor" aria-hidden="true" tabindex="-1" href="#-developer-tooling"><span class="octicon octicon-link"></span></a>👩🏻‍💻 Developer tooling</h2>
     <ul>
@@ -139,26 +158,56 @@ customElements.define('markdown-style', MarkdownStyle);</script><markdown-style 
       <li><a href="https://groups.google.com/u/0/a/chromium.org/g/attribution-reporting-api-dev/search?q=maud%20nalpas">Drove communication</a> with all early testers of a privacy-preserving web API for ad conversion measurement.</li>
     </ul>
     <h2 id="️-talks"><a class="anchor" aria-hidden="true" tabindex="-1" href="#️-talks"><span class="octicon octicon-link"></span></a>🎙️ Talks</h2>
-    <ul>
-      <li>Security/Privacy/Authentication:
-        <ul>
-          <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7214590199463342080/">Passkeys, for a passwordless future</a> · 🇫🇷 DotJS Paris · 2024</li>
-          <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:7133809102564020225/">Passkeys 101</a> · 🇩🇪 MunichJS · 2023</li>
-          <li><a href="https://authenticatecon.com/session/easy-passkeys-on-the-web-with-browser-autofill-with-the-chrome-team/">Passkeys workshop</a> · 🇺🇸 Authenticate San Diego · 2023</li>
-          <li><a href="https://docs.google.com/presentation/d/1MwxyhDJPDIx5orn6YIL6JJXOkZ_5aUyZ5181IIvZC4w/pub?start=false&#x26;loop=false&#x26;delayms=60000">XSS protections with strict CSP</a> 🇯🇵 Chrome Tech Nights Tokyo · 2023</li>
-          <li><a href="https://www.linkedin.com/feed/update/urn:li:activity:6930220375825915905/">Passkeys, autofill, 3P cookies: the Web in 2023</a> · 🇩🇪 Berlin GDE Summit · 2023</li>
-          <li><a href="https://www.youtube.com/watch?v=9UgS81AaMU4">The hitchhiker's guide to web privacy</a> · 🇳🇱🇫🇷 Fronteers Utrecht + DevFest Nantes · 2022</li>
-          <li>Prepare for a more private web (Google I/O · 2021) TBD</li>
-          <li><a href="https://snyk.io/videos/haunted-chromes-vision-post-spectre-web-development/">HAUNTED: Chrome's vision for post-Spectre web development</a> · 🕸️ SnykCon online · 2021</li>
-          <li><a href="https://www.youtube.com/watch?v=0STgfjSA6T8">Introducing the privacy budget</a> · 🕸️ Chrome Developers Summmit online · 2020</li>
-        </ul>
-      </li>
-      <li>AI:
-        <ul>
-          <li><a href="https://io.google/2024/explore/47fc6e98-8359-4be0-b9b9-4bc7b28bd063/">No buzz, just build: Practical on-device AI for web developers</a> · 🕸️ Google I/O online · 2024</li>
-        </ul>
-      </li>
-    </ul>
+    <table>
+      <thead>
+        <tr>
+          <th align="left">Talk</th>
+          <th align="right">Where &#x26; When</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td align="left"><a href="https://io.google/2024/explore/47fc6e98-8359-4be0-b9b9-4bc7b28bd063/">No buzz, just build: client-side AI</a></td>
+          <td align="right">🕸️ Google I/O online · 2024</td>
+        </tr>
+        <tr>
+          <td align="left"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7214590199463342080/">Passkeys, for a passwordless future</a></td>
+          <td align="right">🇫🇷 DotJS Paris · 2024</td>
+        </tr>
+        <tr>
+          <td align="left"><a href="https://www.linkedin.com/feed/update/urn:li:activity:7133809102564020225/">Passkeys 101</a></td>
+          <td align="right">🇩🇪 MunichJS · 2023</td>
+        </tr>
+        <tr>
+          <td align="left"><a href="https://authenticatecon.com/session/easy-passkeys-on-the-web-with-browser-autofill-with-the-chrome-team/">Passkeys workshop</a></td>
+          <td align="right">🇺🇸 Authenticate San Diego · 2023</td>
+        </tr>
+        <tr>
+          <td align="left"><a href="https://docs.google.com/presentation/d/1MwxyhDJPDIx5orn6YIL6JJXOkZ_5aUyZ5181IIvZC4w/pub?start=false&#x26;loop=false&#x26;delayms=60000">XSS protections with strict CSP</a></td>
+          <td align="right">🇯🇵 Chrome Tech Nights Tokyo · 2023</td>
+        </tr>
+        <tr>
+          <td align="left"><a href="https://www.linkedin.com/feed/update/urn:li:activity:6930220375825915905/">Passkeys, autofill, 3P cookies: the Web in 2023</a></td>
+          <td align="right">🇩🇪 Berlin GDE Summit · 2023</td>
+        </tr>
+        <tr>
+          <td align="left"><a href="https://www.youtube.com/watch?v=9UgS81AaMU4">The hitchhiker's guide to web privacy</a></td>
+          <td align="right">🇳🇱🇫🇷 Fronteers Utrecht + DevFest Nantes · 2022</td>
+        </tr>
+        <tr>
+          <td align="left"><a href="https://snyk.io/videos/haunted-chromes-vision-post-spectre-web-development/">HAUNTED: Chrome's vision for post-Spectre web development</a></td>
+          <td align="right">🕸️ SnykCon online · 2021</td>
+        </tr>
+        <tr>
+          <td align="left"><a href="https://www.youtube.com/watch?v=0STgfjSA6T8">Introducing the privacy budget</a></td>
+          <td align="right">🕸️ Chrome Developers Summmit online · 2020</td>
+        </tr>
+        <tr>
+          <td align="left"><a href="https://www.youtube.com/watch?v=1g2uQfP1Q3U">Prepare for a more private web</a></td>
+          <td align="right">🕸️ Google I/O online · 2021</td>
+        </tr>
+      </tbody>
+    </table>
     <p align="center">
       <img width="300" alt="Audience watching Maud&#x27;s security talk in Japan" src="https://gist.github.com/user-attachments/assets/771c14b2-a0d9-4d0d-ab7c-64c6cabdffad"><br><sup>One of my favorite talks ❤️ Web security, Tokyo</sup>
     </p>
@@ -197,6 +246,7 @@ customElements.define('markdown-style', MarkdownStyle);</script><markdown-style 
     <ul>
       <li><a href="https://github.com/maudnals/artplz">artplz</a></li>
       <li>cssunrise TBD</li>
+      <li>Hello worlds</li>
     </ul>
     <p align="center">
       <img width="300" alt="Painting being drawn in a terminal" src="https://user-images.githubusercontent.com/9762897/212710369-0e1050e8-6ada-461d-a292-376c8b297a10.gif"><br><sup>My artplz project. Art in my terminal!<br>It's dynamic and should work with <em>any</em> painter you enter as an CLI argument, because under the hood there's a Wikipedia scraper 🕶️</sup>
