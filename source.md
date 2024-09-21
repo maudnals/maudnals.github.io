@@ -14,7 +14,7 @@ I focus on `web security`, `privacy`, `authentication` and `AI`.
 
 Right now, I'm a Developer Relations Engineer at Google working on `Chrome`. In the physical world, I live in Paris 🇫🇷. You can find me roaming around taking street pictures. Online, find me on [LinkedIn](https://www.linkedin.com/in/maudnalpas/) (less so on [X](https://x.com/maudnals?lang=en)).
 
-### ⭐ Open-source demos
+## ⭐ Open-source demos
 
 - [Client-side AI: Toxicity](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/toxic-review-warning)
 - [Client-side AI: Product Reviews]() TBD
@@ -23,20 +23,20 @@ Right now, I'm a Developer Relations Engineer at Google working on `Chrome`. In 
 - [Reporting API](https://developer.chrome.com/docs/capabilities/web-apis/reporting-api#demo_and_code)
 - [ROR (Passkey reuse across sites)](https://web.dev/articles/webauthn-related-origin-requests#demo)
 
-### 👩🏻‍💻 Developer tooling
+## 👩🏻‍💻 Developer tooling
 
 - Noise Lab TBD
 - Strict-CSP TBD
 - [Nose lab](https://developer.chrome.com/docs/privacy-sandbox/summary-reports/design-decisions/)
 
-### 🔎 Other DevX work
+## 🔎 Other DevX work
 
 - [Advocated / Files bugs for DevX improvement in Chrome DevTools and Chrome browser](https://issues.chromium.org/issues?q=reporter:maudn@chromium.org).
 - Bridged external devs with internal teams to land DevX improvements, like for example [here](https://github.com/privacysandbox/privacy-sandbox-dev-support/issues/41).
 - Researched [what web developers think about AI](https://web.dev/blog/ai-chats-and-takeaways).
 - [Drove communication](https://groups.google.com/u/0/a/chromium.org/g/attribution-reporting-api-dev/search?q=maud%20nalpas) with all early testers of a privacy-preserving web API for ad conversion measurement.
 
-### 🎙️ Talks
+## 🎙️ Talks
 
 - Security/Privacy/Authentication:
   - [Passkeys, for a passwordless future](https://www.linkedin.com/feed/update/urn:li:activity:7214590199463342080/) · 🇫🇷 DotJS Paris · 2024
@@ -56,7 +56,7 @@ Right now, I'm a Developer Relations Engineer at Google working on `Chrome`. In 
   <sup>One of my favorite talks ❤️ Web security, Tokyo</sup>
 </p>
 
-### ✏️ Articles and docs (selection)
+## ✏️ Articles and docs (selection)
 
 - Security/Privacy/Authentication:
   - [Passkey reuse across sites](https://web.dev/articles/webauthn-related-origin-requests)
@@ -73,7 +73,7 @@ Right now, I'm a Developer Relations Engineer at Google working on `Chrome`. In 
   - [Understand LLM sizes](https://web.dev/articles/llm-sizes)
   - [Practical prompt engineering for smaller LLMs](https://web.dev/articles/practical-prompt-engineering)
 
-### 🤝 Misc OSS contributions
+## 🤝 Misc OSS contributions
 
 - [Added one-time permission implementation](https://github.com/chromium/permission.site/commits?author=maudnals) to the Chrome permissions public demo
 - [Contributed dev guidance](https://github.com/passkeydeveloper/passkeys.dev/commits?author=maudnals) to passkeys.dev
@@ -81,7 +81,7 @@ Right now, I'm a Developer Relations Engineer at Google working on `Chrome`. In 
 - I reviewed the [Privacy chapter of the Web Almanac 2021](https://almanac.httparchive.org/en/2021/privacy) `privacy`
 - I coordinated a [full course on web privacy](https://web.dev/learn/privacy)
 
-### 🥤 Fun
+## 🥤 Fun
 
 - [artplz](https://github.com/maudnals/artplz)
 - cssunrise TBD

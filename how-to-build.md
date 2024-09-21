@@ -1,0 +1,3 @@
+- Package must be globally installed: `npm i markdown-to-html-cli -g`
+- Tu build, run this: markdown-to-html --source source.md --output index.html --style style.css --title "maudnals" --description "Maud Nalpas, Developer Relations Engineer, web developer, tech speaker" --favicon "data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛰️</text></svg>"
+- Then push to GH; GH pages will look for a README.md or index.html file.
