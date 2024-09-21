@@ -8,7 +8,7 @@ I'm a **Developer Relations Engineer** at Google working on Chrome.
 </p>
 
 I started coding with C++ in 2013 and was quickly drawn to the **web**.
-Since 2015, I've built many web products using **JavaScript**, **TypeScript**, React, and React Native. I also had a stint as a **UX/UI designer**. 
+Since 2015, I've built many web products using **JavaScript**, **TypeScript**, React, and React Native. I also had a fun stint as a **UX/UI designer**. 
 
 I then moved onto Developer Relations Engineering.
 I love being a **bridge between developers and product/eng teams**. I build developer tools, write demos and docs, run developer research, design dev tooling solutions, and channel feedback to product teams.
@@ -36,10 +36,10 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 
 ## 🔎 Other DevX work
 
-- [Advocated / Files bugs for DevX improvement in Chrome DevTools and Chrome browser](https://issues.chromium.org/issues?q=reporter:maudn@chromium.org).
-- Bridged external devs with internal teams to land DevX improvements, like for example [here](https://github.com/privacysandbox/privacy-sandbox-dev-support/issues/41).
-- Researched [what web developers think about AI](https://web.dev/blog/ai-chats-and-takeaways).
-- [Drove communication](https://groups.google.com/u/0/a/chromium.org/g/attribution-reporting-api-dev/search?q=maud%20nalpas) with all early testers of a privacy-preserving web API for ad conversion measurement.
+- I [advocated / filed bugs for DevX improvement in Chrome DevTools and Chrome browser](https://issues.chromium.org/issues?q=reporter:maudn@chromium.org).
+- I bridged external devs with internal teams to land DevX improvements, like for example [here](https://github.com/privacysandbox/privacy-sandbox-dev-support/issues/41).
+- I researched [what web developers think about AI](https://web.dev/blog/ai-chats-and-takeaways).
+- I [drove technical outreach](https://groups.google.com/u/0/a/chromium.org/g/attribution-reporting-api-dev/search?q=maud%20nalpas) with all early testers of a privacy-preserving web API for ad conversion measurement.
 
 ## 🎙️ Talks
 
@@ -58,12 +58,12 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 
 <p align="center">
   <img width="350" alt="Audience watching Maud's security talk in Japan" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/tech-night-talk-japan.jpg?raw=true"><br/>
-  <sup>One of my favorite talks ❤️ Web security, Tokyo</sup>
+  <sup>One of my favorite talks ❤️ Web security, Tokyo. I love small, engaged audiences I can directly interact with.</sup>
 </p>
 
 <p align="center">
   <img width="350" alt="Audience watching Maud's passkey talk in Paris" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/dotJS.jpeg?raw=true"><br/>
-  <sup>DotJS stage, 1000+ live attendees. 2024, Paris</sup>
+  <sup>DotJS stage, 1000+ live attendees. 2024, Paris.</sup>
 </p>
 
 ## ✏️ Articles and docs (selection)
@@ -99,5 +99,5 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 
 <p align="center">
   <img width="350" alt="Painting being drawn in a terminal" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/artplz.gif?raw=true"><br/>
-  <sup>My artplz project. Art in my terminal!<br/>It's dynamic and should work with <em>any</em> painter you enter as an CLI argument, because under the hood there's a Wikipedia scraper 🕶️</sup>
+  <sup>My artplz project. Art in my terminal!<br/>It's dynamic and should work with <em>any</em> painter you enter as a CLI argument: there's a Wikipedia scraper uner the hood 🕶️</sup>
 </p>
