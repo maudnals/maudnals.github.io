@@ -8,8 +8,9 @@ I'm a **Developer Relations Engineer** at Google working on Chrome.
 </p>
 
 I started coding with C++ in 2013 and was quickly drawn to the **web**.
-Since 2015, I've built many web products using **JavaScript**, **TypeScript**, React, and React Native. I also had a stint as a **UX/UI designer**. I then moved onto Developer Relations Engineering.
+Since 2015, I've built many web products using **JavaScript**, **TypeScript**, React, and React Native. I also had a stint as a **UX/UI designer**. 
 
+I then moved onto Developer Relations Engineering.
 I love being a **bridge between developers and product/eng teams**. I build developer tools, write demos and docs, run developer research, design dev tooling solutions, and channel feedback to product teams.
 I also speak at conferences.
 
