@@ -22,6 +22,11 @@ img {
   line-height: 1.2lh;
 }
 
+markdown-style b, markdown-style strong {
+  font-weight: initial;
+  background: #ff59e275;
+}
+
 dark-mode {
   --width-mode: 5rem;
   width: var(--width-mode);
@@ -125,7 +130,7 @@ customElements.define('markdown-style', MarkdownStyle);</script><markdown-style 
     <h1 id="hi-im-maud"><a class="anchor" aria-hidden="true" tabindex="-1" href="#hi-im-maud"><span class="octicon octicon-link"></span></a>Hi, I'm Maud.</h1>
     <p>I'm a <strong>Developer Relations Engineer</strong> at Google working on Chrome.</p>
     <p align="center">
-      <img width="350" alt="A screenshot of multicolor triangles implemented through 3d programming in C++" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/triangles.jpg?raw=true"><br><sup>How it all started! Qt/OpenGL with C++</sup>
+      <img width="350" alt="A screenshot of multicolor triangles implemented through 3d programming in C++" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/triangles.jpg?raw=true"><br><sup>How it all started! Qt/OpenGL with C++.</sup>
     </p>
     <p>
       I started coding with C++ in 2013 and was quickly drawn to the <strong>web</strong>.
@@ -136,23 +141,31 @@ customElements.define('markdown-style', MarkdownStyle);</script><markdown-style 
       I love being a <strong>bridge between developers and product/eng teams</strong>. I build developer tools, write demos and docs, run developer research, design dev tooling solutions, and channel feedback to product teams.
       I also speak at conferences.
     </p>
-    <p><strong>Today, I focus on 🔐 web security, privacy, authentication and 🔮 AI.</strong></p>
+    <p>Today, I focus on <strong>🔐 web security, privacy, authentication and 🔮 AI.</strong></p>
     <p>In the physical world, I live in Paris. You can find me roaming around taking street pictures. Online, find me on <a href="https://www.linkedin.com/in/maudnalpas/">LinkedIn</a> (less so on <a href="https://x.com/maudnals?lang=en">X</a>).</p>
     <h2 id="-open-source-demos"><a class="anchor" aria-hidden="true" tabindex="-1" href="#-open-source-demos"><span class="octicon octicon-link"></span></a>⭐ Open-source demos</h2>
     <ul>
-      <li><a href="https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/toxic-review-warning">Client-side AI: Toxicity</a></li>
-      <li><a href="">Client-side AI: Product Reviews</a> TBD</li>
-      <li><a href="">Client-side AI: Better Performance/Speed in a worker</a> TBD</li>
-      <li>Autofill TBD</li>
-      <li><a href="https://developer.chrome.com/docs/capabilities/web-apis/reporting-api#demo_and_code">Reporting API</a></li>
-      <li><a href="https://web.dev/articles/webauthn-related-origin-requests#demo">ROR (Passkey reuse across sites)</a></li>
-      <li>Referrer demo TBD</li>
+      <li>Security/Privacy/Authentication:
+        <ul>
+          <li>Autofill observer: <a href="TBD">Code</a> • <a href="https://chrome.dev/web-identity-demos/autofill-observer-demo/address.html">Live demo</a></li>
+          <li><a href="https://developer.chrome.com/docs/capabilities/web-apis/reporting-api#demo_and_code">Reporting API</a></li>
+          <li><a href="https://web.dev/articles/webauthn-related-origin-requests#demo">ROR (Passkey reuse across sites)</a></li>
+          <li><a href="https://webauthn-2fa.glitch.me/">2FA with WebAuthn and a secuity key</a></li>
+        </ul>
+      </li>
+      <li>AI:
+        <ul>
+          <li>Toxicity warning with client-side AI: <a href="https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/toxic-review-warning">Code</a> • <a href="https://chrome.dev/web-ai-demos/toxic-review-warning/">Live demo</a></li>
+          <li>Product review autorating with client-side AI: <a href="https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-auto-rating-io">Code</a> • <a href="https://chrome.dev/web-ai-demos/product-reviews/">Live demo</a></li>
+          <li>Product review suggestions: <a href="https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-suggestions">Code</a> • <a href="https://chrome.dev/web-ai-demos/product-reviews-suggestions/">Live demo</a></li>
+          <li>Performance tups for client-side AI: <a href="">Code</a> • <a href="https://chrome.dev/web-ai-demos/perf-client-side-gemma-worker/">Live demo</a></li>
+        </ul>
+      </li>
     </ul>
     <h2 id="-developer-tooling"><a class="anchor" aria-hidden="true" tabindex="-1" href="#-developer-tooling"><span class="octicon octicon-link"></span></a>👩🏻‍💻 Developer tooling</h2>
     <ul>
-      <li>Noise Lab TBD</li>
-      <li>Strict-CSP TBD</li>
-      <li><a href="https://developer.chrome.com/docs/privacy-sandbox/summary-reports/design-decisions/">Nose lab</a></li>
+      <li>strict-csp-html-webpack-plugin: A webpack plugin that configures a strict, hash-based CSP for a single-page application. It uses the strict-csp library to form a CSP and hooks into the popular HtmlWebpackPlugin to set up this CSP as a meta HTML tag. <a href="https://github.com/google/strict-csp/tree/main/strict-csp-html-webpack-plugin">Source code</a> • <a href="https://www.npmjs.com/package/strict-csp-html-webpack-plugin">npm entry</a></li>
+      <li>noise-lab: A tool to onboard and experiment with summary reports and noise in <a href="https://developers.google.com/privacy-sandbox/private-advertising">Privacy Sandbox Measurement APIs</a>. <a href="https://github.com/privacysandbox/noise-lab">Source code</a> • <a href="https://developer.chrome.com/docs/privacy-sandbox/summary-reports/design-decisions/">Docs</a></li>
     </ul>
     <h2 id="-other-devx-work"><a class="anchor" aria-hidden="true" tabindex="-1" href="#-other-devx-work"><span class="octicon octicon-link"></span></a>🔎 Other DevX work</h2>
     <ul>
@@ -222,6 +235,7 @@ customElements.define('markdown-style', MarkdownStyle);</script><markdown-style 
     <ul>
       <li>Security/Privacy/Authentication:
         <ul>
+          <li>Full guide on server-side passkey implementation: <a href="https://developers.google.com/identity/passkeys/developer-guides/server-introduction">Part 1</a>, <a href="https://developers.google.com/identity/passkeys/developer-guides/server-registration">Part 2</a>, <a href="https://developers.google.com/identity/passkeys/developer-guides/server-authentication">Part 3</a></li>
           <li><a href="https://web.dev/articles/webauthn-related-origin-requests">Passkey reuse across sites</a></li>
           <li>HTTPS for local development: <a href="https://web.dev/articles/when-to-use-local-https">When</a> and <a href="https://web.dev/articles/how-to-use-local-https">How</a></li>
           <li><a href="https://web.dev/articles/referrer-best-practices">Referrer and Referrer-Policy best practices</a></li>
@@ -230,14 +244,15 @@ customElements.define('markdown-style', MarkdownStyle);</script><markdown-style 
           <li><a href="https://web.dev/articles/security-headers">Security headers quick reference</a></li>
           <li><a href="https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-debugging/">Debugging guide for Attribution Reporting</a></li>
           <li><a href="https://developer.chrome.com/authors/maudn/">Attribution Reporting series</a></li>
-          <li>TBD Building your first WebAuthn for authentication with a security key auth/identity</li>
-          <li>TBD video series on Noise Lab</li>
+          <li><a href="https://developers.google.com/codelabs/webauthn-2fa-key#0">Secure your site with two-factor authentication with a security key (WebAuthn)</a></li>
+          <li><a href="https://www.youtube.com/results?search_query=noise+lab+maud+nalpas">[Video series] Tutorial: Noise Lab</a></li>
         </ul>
       </li>
       <li>AI:
         <ul>
           <li><a href="https://web.dev/articles/llm-sizes">Understand LLM sizes</a></li>
           <li><a href="https://web.dev/articles/practical-prompt-engineering">Practical prompt engineering for smaller LLMs</a></li>
+          <li><a href="https://web.dev/articles/client-side-ai-performance">Improve performance and UX for client-side AI</a></li>
         </ul>
       </li>
     </ul>
@@ -251,12 +266,12 @@ customElements.define('markdown-style', MarkdownStyle);</script><markdown-style 
     </ul>
     <h2 id="-fun"><a class="anchor" aria-hidden="true" tabindex="-1" href="#-fun"><span class="octicon octicon-link"></span></a>🥤 Fun</h2>
     <ul>
-      <li><a href="https://github.com/maudnals/artplz">artplz</a></li>
-      <li>cssunrise TBD</li>
-      <li>Hello worlds</li>
+      <li><a href="https://github.com/maudnals/artplz">artplz</a>: Art in your terminal! It's dynamic, and should work with any painter you enter as a CLI argument. Under the hood, there's a Wikipedia scraper.</li>
+      <li><a href="https://github.com/maudnals/csssunrise">cssunrise</a>: A 1-minute sunrise in CSS.</li>
+      <li><a href="https://maudnals.github.io/hello-worlds">Hello worlds</a>: Planets and exoplanets in 3D.</li>
     </ul>
     <p align="center">
-      <img width="350" alt="Painting being drawn in a terminal" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/artplz.gif?raw=true"><br><sup>My artplz project. Art in my terminal!<br>It's dynamic and should work with <em>any</em> painter you enter as a CLI argument: there's a Wikipedia scraper uner the hood 🕶️</sup>
+      <img width="350" alt="Painting being drawn in a terminal" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/artplz.gif?raw=true"><br><sup>My artplz project<br></sup>
     </p>
   <style>markdown-style pre .copied {
   display: flex;

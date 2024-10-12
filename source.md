@@ -1,10 +1,10 @@
-# Hi, I'm Maud. 
+# Hi, I'm Maud.
 
 I'm a **Developer Relations Engineer** at Google working on Chrome.
 
 <p align="center">
   <img width="350" alt="A screenshot of multicolor triangles implemented through 3d programming in C++" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/triangles.jpg?raw=true"><br/>
-  <sup>How it all started! Qt/OpenGL with C++</sup>
+  <sup>How it all started! Qt/OpenGL with C++.</sup>
 </p>
 
 I started coding with C++ in 2013 and was quickly drawn to the **web**.
@@ -14,25 +14,27 @@ I then moved onto Developer Relations Engineering.
 I love being a **bridge between developers and product/eng teams**. I build developer tools, write demos and docs, run developer research, design dev tooling solutions, and channel feedback to product teams.
 I also speak at conferences.
 
-**Today, I focus on 🔐 web security, privacy, authentication and 🔮 AI.**
+Today, I focus on **🔐 web security, privacy, authentication and 🔮 AI.**
 
 In the physical world, I live in Paris. You can find me roaming around taking street pictures. Online, find me on [LinkedIn](https://www.linkedin.com/in/maudnalpas/) (less so on [X](https://x.com/maudnals?lang=en)).
 
 ## ⭐ Open-source demos
 
-- [Client-side AI: Toxicity](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/toxic-review-warning)
-- [Client-side AI: Product Reviews]() TBD
-- [Client-side AI: Better Performance/Speed in a worker]() TBD
-- Autofill TBD
-- [Reporting API](https://developer.chrome.com/docs/capabilities/web-apis/reporting-api#demo_and_code)
-- [ROR (Passkey reuse across sites)](https://web.dev/articles/webauthn-related-origin-requests#demo)
-- Referrer demo TBD
+- Security/Privacy/Authentication:
+  - Autofill observer: [Code](TBD) • [Live demo](https://chrome.dev/web-identity-demos/autofill-observer-demo/address.html)
+  - [Reporting API](https://developer.chrome.com/docs/capabilities/web-apis/reporting-api#demo_and_code)
+  - [ROR (Passkey reuse across sites)](https://web.dev/articles/webauthn-related-origin-requests#demo)
+  - [2FA with WebAuthn and a secuity key](https://webauthn-2fa.glitch.me/)
+- AI:
+  - Toxicity warning with client-side AI: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/toxic-review-warning) • [Live demo](https://chrome.dev/web-ai-demos/toxic-review-warning/)
+  - Product review autorating with client-side AI: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-auto-rating-io) • [Live demo](https://chrome.dev/web-ai-demos/product-reviews/) 
+  - Product review suggestions: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-suggestions) • [Live demo](https://chrome.dev/web-ai-demos/product-reviews-suggestions/) 
+  - Performance tups for client-side AI: [Code]() • [Live demo](https://chrome.dev/web-ai-demos/perf-client-side-gemma-worker/)
 
 ## 👩🏻‍💻 Developer tooling
 
-- Noise Lab TBD
-- Strict-CSP TBD
-- [Nose lab](https://developer.chrome.com/docs/privacy-sandbox/summary-reports/design-decisions/)
+- strict-csp-html-webpack-plugin: A webpack plugin that configures a strict, hash-based CSP for a single-page application. It uses the strict-csp library to form a CSP and hooks into the popular HtmlWebpackPlugin to set up this CSP as a meta HTML tag. [Source code](https://github.com/google/strict-csp/tree/main/strict-csp-html-webpack-plugin) • [npm entry](https://www.npmjs.com/package/strict-csp-html-webpack-plugin)
+- noise-lab: A tool to onboard and experiment with summary reports and noise in [Privacy Sandbox Measurement APIs](https://developers.google.com/privacy-sandbox/private-advertising). [Source code](https://github.com/privacysandbox/noise-lab) • [Docs](https://developer.chrome.com/docs/privacy-sandbox/summary-reports/design-decisions/)
 
 ## 🔎 Other DevX work
 
@@ -69,6 +71,7 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 ## ✏️ Articles and docs (selection)
 
 - Security/Privacy/Authentication:
+  - Full guide on server-side passkey implementation: [Part 1](https://developers.google.com/identity/passkeys/developer-guides/server-introduction), [Part 2](https://developers.google.com/identity/passkeys/developer-guides/server-registration), [Part 3](https://developers.google.com/identity/passkeys/developer-guides/server-authentication)
   - [Passkey reuse across sites](https://web.dev/articles/webauthn-related-origin-requests)
   - HTTPS for local development: [When](https://web.dev/articles/when-to-use-local-https) and [How](https://web.dev/articles/how-to-use-local-https)
   - [Referrer and Referrer-Policy best practices](https://web.dev/articles/referrer-best-practices)
@@ -77,11 +80,12 @@ In the physical world, I live in Paris. You can find me roaming around taking st
   - [Security headers quick reference](https://web.dev/articles/security-headers)
   - [Debugging guide for Attribution Reporting](https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-debugging/)
   - [Attribution Reporting series](https://developer.chrome.com/authors/maudn/)
-  - TBD Building your first WebAuthn for authentication with a security key auth/identity
-  - TBD video series on Noise Lab
+  - [Secure your site with two-factor authentication with a security key (WebAuthn)](https://developers.google.com/codelabs/webauthn-2fa-key#0)
+  - [[Video series] Tutorial: Noise Lab](https://www.youtube.com/results?search_query=noise+lab+maud+nalpas)
 - AI:
   - [Understand LLM sizes](https://web.dev/articles/llm-sizes)
   - [Practical prompt engineering for smaller LLMs](https://web.dev/articles/practical-prompt-engineering)
+  - [Improve performance and UX for client-side AI](https://web.dev/articles/client-side-ai-performance)
 
 ## 🤝 Misc OSS contributions
 
@@ -93,11 +97,11 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 
 ## 🥤 Fun
 
-- [artplz](https://github.com/maudnals/artplz)
-- cssunrise TBD
-- Hello worlds
+- [artplz](https://github.com/maudnals/artplz): Art in your terminal! It's dynamic, and should work with any painter you enter as a CLI argument. Under the hood, there's a Wikipedia scraper.
+- [cssunrise](https://github.com/maudnals/csssunrise): A 1-minute sunrise in CSS.
+- [Hello worlds](https://maudnals.github.io/hello-worlds): Planets and exoplanets in 3D.
 
 <p align="center">
   <img width="350" alt="Painting being drawn in a terminal" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/artplz.gif?raw=true"><br/>
-  <sup>My artplz project. Art in my terminal!<br/>It's dynamic and should work with <em>any</em> painter you enter as a CLI argument: there's a Wikipedia scraper uner the hood 🕶️</sup>
+  <sup>My artplz project<br/></sup>
 </p>
