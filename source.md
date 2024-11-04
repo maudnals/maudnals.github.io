@@ -16,7 +16,7 @@ I also speak at conferences.
 
 Today, I focus on **🔐 web security, privacy, authentication and 🔮 AI.**
 
-In the physical world, I live in Paris. You can find me roaming around taking street pictures. Online, find me on [LinkedIn](https://www.linkedin.com/in/maudnalpas/) (less so on [X](https://x.com/maudnals?lang=en)).
+In the physical world, I live in Paris. You can find me roaming around taking street pictures. Online, find me on [BlueSky](https://bsky.app/profile/maudnals.bsky.social) and [LinkedIn](https://www.linkedin.com/in/maudnalpas/) (previously so on [X](https://x.com/maudnals?lang=en)).
 
 ## ⭐ Open-source demos
 
