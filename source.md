@@ -71,7 +71,9 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 ## ✏️ Articles and docs (selection)
 
 - Security/Privacy/Authentication:
-  - Full guide on server-side passkey implementation: [Part 1](https://developers.google.com/identity/passkeys/developer-guides/server-introduction), [Part 2](https://developers.google.com/identity/passkeys/developer-guides/server-registration), [Part 3](https://developers.google.com/identity/passkeys/developer-guides/server-authentication)
+  - [Measure browser autofill on your forms](https://web.dev/articles/autofill-measure)
+  - [Seamless credential sharing](https://www.linkedin.com/posts/maudnalpas_help-your-users-sign-in-smoothly-with-seamless-activity-7257724717015478272-ypoC)
+  - Full guide on server-side passkey implementation: [Part 1](https://developers.google.com/identity/passkeys/developer-guides/server-introduction), [Part 2](https://developers.google.com/identity/passkeys/developer-guides/server-registration), [Part 3](https://developers.google.com/identity/passkeys/developer-guides/server-authentication), [Social media post](https://www.linkedin.com/posts/chrome-for-developers_passkeysweek-activity-7264427159430000640-zBHX)
   - [Passkey reuse across sites](https://web.dev/articles/webauthn-related-origin-requests)
   - HTTPS for local development: [When](https://web.dev/articles/when-to-use-local-https) and [How](https://web.dev/articles/how-to-use-local-https)
   - [Referrer and Referrer-Policy best practices](https://web.dev/articles/referrer-best-practices)
@@ -83,9 +85,14 @@ In the physical world, I live in Paris. You can find me roaming around taking st
   - [Secure your site with two-factor authentication with a security key (WebAuthn)](https://developers.google.com/codelabs/webauthn-2fa-key#0)
   - [[Video series] Tutorial: Noise Lab](https://www.youtube.com/results?search_query=noise+lab+maud+nalpas)
 - AI:
+  - 2-part developer guide on client-side toxicity detection: [Part 1](https://web.dev/articles/ai-detect-toxicity-context), [Part 2](https://web.dev/articles/ai-detect-toxicity-build), [Social media post](https://www.linkedin.com/posts/maudnalpas_ai-webai-toxicity-activity-7262487002875416576-jsMP/)
   - [Understand LLM sizes](https://web.dev/articles/llm-sizes)
   - [Practical prompt engineering for smaller LLMs](https://web.dev/articles/practical-prompt-engineering)
   - [Improve performance and UX for client-side AI](https://web.dev/articles/client-side-ai-performance)
+
+## 💙 Community
+
+- I drive hosting of local tech events for underrepresented groups, like the [Ladies of Code meetup](https://www.linkedin.com/posts/maudnalpas_googleaihub-activity-7247235655427076097--lX7/)
 
 ## 🤝 Misc OSS contributions
 
@@ -94,6 +101,7 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 - I [improved onboarding docs](https://github.com/breadboard-ai/breadboard/commits?author=maudnals) for a Gen AI prototyping tool
 - I reviewed the [Privacy chapter of the Web Almanac 2021](https://almanac.httparchive.org/en/2021/privacy)
 - I coordinated a [full course on web privacy](https://web.dev/learn/privacy)
+- I filed a [common issue](https://github.com/huggingface/transformers.js/issues/366) on Transformers.js
 
 ## 🥤 Fun
 
