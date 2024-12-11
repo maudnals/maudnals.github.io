@@ -92,7 +92,9 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 
 ## 💙 Community
 
-- I drive hosting of local tech events for underrepresented groups, like the [Ladies of Code meetup](https://www.linkedin.com/posts/maudnalpas_googleaihub-activity-7247235655427076097--lX7/)
+I drive and advocate for hosting tech events for underrepresented groups:
+* [Women Techmakers Paris meetup](https://www.linkedin.com/posts/maudnalpas_ai-activity-7272590428141502465-jusB)
+* [Ladies of Code Paris meetup](https://www.linkedin.com/posts/maudnalpas_googleaihub-activity-7247235655427076097--lX7/)
 
 ## 🤝 Misc OSS contributions
 
