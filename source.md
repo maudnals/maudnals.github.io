@@ -8,7 +8,7 @@ I'm a **Developer Relations Engineer** at Google working on Chrome.
 </p>
 
 I started coding with C++ in 2013 and was quickly drawn to the **web**.
-Since 2015, I've built many web products using **JavaScript**, **TypeScript**, React, and React Native. I also had a fun stint as a **UX/UI designer**. 
+Since 2015, I've built many web products using **JavaScript**, **TypeScript**, React, and React Native. I also had a fun stint as a **UX/UI designer**.
 
 I then moved onto Developer Relations Engineering.
 I love being a **bridge between developers and product/eng teams**. I build developer tools, write demos and docs, run developer research, design dev tooling solutions, and channel feedback to product teams.
@@ -16,7 +16,7 @@ I also speak at conferences.
 
 Today, I focus on **🔐 web security, privacy, authentication and 🔮 AI.**
 
-In the physical world, I live in Paris. You can find me roaming around taking street pictures. Online, find me on [BlueSky](https://bsky.app/profile/maudnals.bsky.social) and [LinkedIn](https://www.linkedin.com/in/maudnalpas/) (previously so on [X](https://x.com/maudnals?lang=en)).
+In the physical world, I live in Paris. You can find me roaming around taking street pictures. Online, find me on [BlueSky](https://bsky.app/profile/maudnals.bsky.social) and [LinkedIn](https://www.linkedin.com/in/maudnalpas/) (previously on [X](https://x.com/maudnals?lang=en)).
 
 ## ⭐ Open-source demos
 
@@ -27,8 +27,8 @@ In the physical world, I live in Paris. You can find me roaming around taking st
   - [2FA with WebAuthn and a secuity key](https://webauthn-2fa.glitch.me/)
 - AI:
   - Toxicity warning with client-side AI: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/toxic-review-warning) • [Live demo](https://chrome.dev/web-ai-demos/toxic-review-warning/)
-  - Product review autorating with client-side AI: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-auto-rating-io) • [Live demo](https://chrome.dev/web-ai-demos/product-reviews/) 
-  - Product review suggestions: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-suggestions) • [Live demo](https://chrome.dev/web-ai-demos/product-reviews-suggestions/) 
+  - Product review autorating with client-side AI: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-auto-rating-io) • [Live demo](https://chrome.dev/web-ai-demos/product-reviews/)
+  - Product review suggestions: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-suggestions) • [Live demo](https://chrome.dev/web-ai-demos/product-reviews-suggestions/)
   - Performance tups for client-side AI: [Code]() • [Live demo](https://chrome.dev/web-ai-demos/perf-client-side-gemma-worker/)
 
 ## 👩🏻‍💻 Developer tooling
@@ -38,25 +38,25 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 
 ## 🔎 Other DevX work
 
-- I [advocated / filed bugs for DevX improvement in Chrome DevTools and Chrome browser](https://issues.chromium.org/issues?q=reporter:maudn@chromium.org).
+- I [advocate / file bugs for DevX improvement in Chrome DevTools and Chrome browser](https://issues.chromium.org/issues?q=reporter:maudn@chromium.org).
 - I bridged external devs with internal teams to land DevX improvements, like for example [here](https://github.com/privacysandbox/privacy-sandbox-dev-support/issues/41).
-- I researched [what web developers think about AI](https://web.dev/blog/ai-chats-and-takeaways).
-- I [drove technical outreach](https://groups.google.com/u/0/a/chromium.org/g/attribution-reporting-api-dev/search?q=maud%20nalpas) with all early testers of a privacy-preserving web API for ad conversion measurement.
+- I research [what web developers think about AI](https://web.dev/blog/ai-chats-and-takeaways).
+- I [drive technical outreach](https://groups.google.com/u/0/a/chromium.org/g/attribution-reporting-api-dev/search?q=maud%20nalpas) with all early testers of a privacy-preserving web API for ad conversion measurement.
 
 ## 🎙️ Talks
 
-| Talk | Where & When |
-| :--- | ---: |
-| [No buzz, just build: client-side AI](https://io.google/2024/explore/47fc6e98-8359-4be0-b9b9-4bc7b28bd063/) | 🕸️ Google I/O online · 2024 |
-| [Passkeys, for a passwordless future](https://www.linkedin.com/feed/update/urn:li:activity:7214590199463342080/) | 🇫🇷 DotJS Paris · 2024 |
-| [Passkeys 101](https://www.linkedin.com/feed/update/urn:li:activity:7133809102564020225/) | 🇩🇪 MunichJS · 2023 |
-| [Passkeys workshop](https://authenticatecon.com/session/easy-passkeys-on-the-web-with-browser-autofill-with-the-chrome-team/) |  🇺🇸 Authenticate San Diego · 2023 |
-| [XSS protections with strict CSP](https://docs.google.com/presentation/d/1MwxyhDJPDIx5orn6YIL6JJXOkZ_5aUyZ5181IIvZC4w/pub?start=false&loop=false&delayms=60000)  |  🇯🇵 Chrome Tech Nights Tokyo · 2023 |
-| [Passkeys, autofill, 3P cookies: the Web in 2023](https://www.linkedin.com/feed/update/urn:li:activity:6930220375825915905/)  |  🇩🇪 Berlin GDE Summit · 2023 |
-| [The hitchhiker's guide to web privacy](https://www.youtube.com/watch?v=9UgS81AaMU4)   |   🇳🇱🇫🇷 Fronteers Utrecht + DevFest Nantes · 2022 |
-| [HAUNTED: Chrome's vision for post-Spectre web development](https://snyk.io/videos/haunted-chromes-vision-post-spectre-web-development/) |  🕸️ SnykCon online · 2021 |
-| [Introducing the privacy budget](https://www.youtube.com/watch?v=0STgfjSA6T8)  |  🕸️ Chrome Developers Summmit online · 2020 |
-| [Prepare for a more private web](https://www.youtube.com/watch?v=1g2uQfP1Q3U)  |  🕸️ Google I/O online · 2021 |
+| Talk                                                                                                                                                            |                                   Where & When |
+| :-------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------: |
+| [No buzz, just build: client-side AI](https://io.google/2024/explore/47fc6e98-8359-4be0-b9b9-4bc7b28bd063/)                                                     |                    🕸️ Google I/O online · 2024 |
+| [Passkeys, for a passwordless future](https://www.linkedin.com/feed/update/urn:li:activity:7214590199463342080/)                                                |                          🇫🇷 DotJS Paris · 2024 |
+| [Passkeys 101](https://www.linkedin.com/feed/update/urn:li:activity:7133809102564020225/)                                                                       |                             🇩🇪 MunichJS · 2023 |
+| [Passkeys workshop](https://authenticatecon.com/session/easy-passkeys-on-the-web-with-browser-autofill-with-the-chrome-team/)                                   |               🇺🇸 Authenticate San Diego · 2023 |
+| [XSS protections with strict CSP](https://docs.google.com/presentation/d/1MwxyhDJPDIx5orn6YIL6JJXOkZ_5aUyZ5181IIvZC4w/pub?start=false&loop=false&delayms=60000) |             🇯🇵 Chrome Tech Nights Tokyo · 2023 |
+| [Passkeys, autofill, 3P cookies: the Web in 2023](https://www.linkedin.com/feed/update/urn:li:activity:6930220375825915905/)                                    |                    🇩🇪 Berlin GDE Summit · 2023 |
+| [The hitchhiker's guide to web privacy](https://www.youtube.com/watch?v=9UgS81AaMU4)                                                                            | 🇳🇱🇫🇷 Fronteers Utrecht + DevFest Nantes · 2022 |
+| [HAUNTED: Chrome's vision for post-Spectre web development](https://snyk.io/videos/haunted-chromes-vision-post-spectre-web-development/)                        |                       🕸️ SnykCon online · 2021 |
+| [Introducing the privacy budget](https://www.youtube.com/watch?v=0STgfjSA6T8)                                                                                   |     🕸️ Chrome Developers Summmit online · 2020 |
+| [Prepare for a more private web](https://www.youtube.com/watch?v=1g2uQfP1Q3U)                                                                                   |                    🕸️ Google I/O online · 2021 |
 
 <p align="center">
   <img width="350" alt="Audience watching Maud's security talk in Japan" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/tech-night-talk-japan.jpg?raw=true"><br/>
@@ -93,8 +93,9 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 ## 💙 Community
 
 I drive and advocate for hosting tech events for underrepresented groups:
-* [Women Techmakers Paris meetup](https://www.linkedin.com/posts/maudnalpas_ai-activity-7272590428141502465-jusB)
-* [Ladies of Code Paris meetup](https://www.linkedin.com/posts/maudnalpas_googleaihub-activity-7247235655427076097--lX7/)
+
+- [Women Techmakers Paris meetup](https://www.linkedin.com/posts/maudnalpas_ai-activity-7272590428141502465-jusB)
+- [Ladies of Code Paris meetup](https://www.linkedin.com/posts/maudnalpas_googleaihub-activity-7247235655427076097--lX7/)
 
 ## 🤝 Misc OSS contributions
 
