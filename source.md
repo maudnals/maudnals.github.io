@@ -105,6 +105,7 @@ I drive and advocate for hosting tech events for underrepresented groups:
 - I reviewed the [Privacy chapter of the Web Almanac 2021](https://almanac.httparchive.org/en/2021/privacy)
 - I coordinated a [full course on web privacy](https://web.dev/learn/privacy)
 - I filed a [common issue](https://github.com/huggingface/transformers.js/issues/366) on Transformers.js
+- I [reviewed the Privacy chapter of the web almanac, 2021edition](https://almanac.httparchive.org/en/2021/privacy)
 
 ## 🥤 Fun
 
