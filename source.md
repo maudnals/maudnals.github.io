@@ -1,6 +1,7 @@
 # Hi, I'm Maud.
 
 I'm a **Developer Relations Engineer** at Google working on Chrome.
+
 Today, I focus on **🔐 web security, privacy, authentication and 🔮 AI.**
 
 <p align="center">
