@@ -2,7 +2,7 @@
 
 I'm a **Developer Relations Engineer** at Google working on Chrome.
 
-Today, I focus on **🔐 web security, privacy, authentication and 🔮 AI.**
+Today, my focus is on **🔐 web security, privacy and AI.**
 
 <p align="center">
   <img width="350" alt="A screenshot of multicolor triangles implemented through 3d programming in C++" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/triangles.jpg?raw=true"><br/>
@@ -12,24 +12,27 @@ Today, I focus on **🔐 web security, privacy, authentication and 🔮 AI.**
 I started coding with C++ in 2013 and was quickly drawn to the **web**.
 Since 2015, I've built many web products using **JavaScript**, **TypeScript**, React, and React Native. I also had a fun stint as a **UX/UI designer**.
 
-I then moved onto Developer Relations Engineering.
+I then moved into Developer Relations Engineering.
 I love being a **bridge between developers and product/eng teams**. I build developer tools, write demos and docs, run developer research, design dev tooling solutions, and channel feedback to product teams.
 I also speak at conferences.
 
-In the physical world, I live in Paris. You can find me roaming around taking street pictures. Online, find me on [BlueSky](https://bsky.app/profile/maudnals.bsky.social) and [LinkedIn](https://www.linkedin.com/in/maudnalpas/) (previously on [X](https://x.com/maudnals?lang=en)).
+In the physical world, I live in Paris. You can find me roaming around taking street photos. Online, find me on [BlueSky](https://bsky.app/profile/maudnals.bsky.social) and [LinkedIn](https://www.linkedin.com/in/maudnalpas/) (previously on [X](https://x.com/maudnals?lang=en)).
 
 ## ⭐ Open-source demos
 
-- Security/Privacy/Authentication:
-  - Autofill observer: [Code](TBD) • [Live demo](https://chrome.dev/web-identity-demos/autofill-observer-demo/address.html)
-  - [Reporting API](https://developer.chrome.com/docs/capabilities/web-apis/reporting-api#demo_and_code)
-  - [ROR (Passkey reuse across sites)](https://web.dev/articles/webauthn-related-origin-requests#demo)
-  - [2FA with WebAuthn and a secuity key](https://webauthn-2fa.glitch.me/)
-- AI:
-  - Toxicity warning with client-side AI: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/toxic-review-warning) • [Live demo](https://chrome.dev/web-ai-demos/toxic-review-warning/)
-  - Product review autorating with client-side AI: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-auto-rating-io) • [Live demo](https://chrome.dev/web-ai-demos/product-reviews/)
-  - Product review suggestions: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-suggestions) • [Live demo](https://chrome.dev/web-ai-demos/product-reviews-suggestions/)
-  - Performance tups for client-side AI: [Code]() • [Live demo](https://chrome.dev/web-ai-demos/perf-client-side-gemma-worker/)
+### Security, Privacy, Authentication
+
+- Autofill observer: [Code](TBD) • [Live demo](https://chrome.dev/web-identity-demos/autofill-observer-demo/address.html)
+- [Reporting API](https://developer.chrome.com/docs/capabilities/web-apis/reporting-api#demo_and_code)
+- [ROR (Passkey reuse across sites)](https://web.dev/articles/webauthn-related-origin-requests#demo)
+- [2FA with WebAuthn and a secuity key](https://webauthn-2fa.glitch.me/)
+
+### AI
+
+- Toxicity warning with client-side AI: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/toxic-review-warning) • [Live demo](https://chrome.dev/web-ai-demos/toxic-review-warning/)
+- Product review autorating with client-side AI: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-auto-rating-io) • [Live demo](https://chrome.dev/web-ai-demos/product-reviews/)
+- Product review suggestions: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-suggestions) • [Live demo](https://chrome.dev/web-ai-demos/product-reviews-suggestions/)
+- Performance tups for client-side AI: [Code]() • [Live demo](https://chrome.dev/web-ai-demos/perf-client-side-gemma-worker/)
 
 ## 👩🏻‍💻 Developer tooling
 
@@ -106,7 +109,7 @@ I drive and advocate for hosting tech events for underrepresented groups:
 - I coordinated a [full course on web privacy](https://web.dev/learn/privacy)
 - I filed a [common issue](https://github.com/huggingface/transformers.js/issues/366) on Transformers.js
 
-## 🥤 Fun
+## 🥤 Fun! Fun!
 
 - [artplz](https://github.com/maudnals/artplz): Art in your terminal! It's dynamic, and should work with any painter you enter as a CLI argument. Under the hood, there's a Wikipedia scraper.
 - [cssunrise](https://github.com/maudnals/csssunrise): A 1-minute sunrise in CSS.
