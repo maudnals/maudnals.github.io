@@ -10,19 +10,21 @@
   padding: 2rem;
   max-width: 60ch;
   margin: 0 auto;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
-img {
-  margin: 1.2rem 0 .2rem 0;
+.markdown-style img {
+  margin: 1.2rem 0 0.2rem 0;
+  border: solid 0.5px !important;
 }
 
 .markdown-style p {
   line-height: 1.2lh;
 }
 
-markdown-style b, markdown-style strong {
+markdown-style b,
+markdown-style strong {
   font-weight: initial;
   background: #ff59e275;
 }
@@ -38,9 +40,10 @@ dark-mode {
   border: solid 1px var(--color-border-muted);
   background: var(--color-border-muted);
   border-radius: 6px;
-  padding: 0.1rem .3rem;
+  padding: 0.1rem 0.3rem;
   text-align: center;
-}</style>
+}
+</style>
     <style>
 [data-color-mode*='light'], [data-color-mode*='light'] body, .markdown-style[theme*='light'] { --color-prettylights-syntax-comment: #6e7781; --color-prettylights-syntax-constant: #0550ae; --color-prettylights-syntax-entity: #8250df; --color-prettylights-syntax-storage-modifier-import: #24292f; --color-prettylights-syntax-entity-tag: #116329; --color-prettylights-syntax-keyword: #cf222e; --color-prettylights-syntax-string: #0a3069; --color-prettylights-syntax-variable: #953800; --color-prettylights-syntax-brackethighlighter-unmatched: #82071e; --color-prettylights-syntax-invalid-illegal-text: #f6f8fa; --color-prettylights-syntax-invalid-illegal-bg: #82071e; --color-prettylights-syntax-carriage-return-text: #f6f8fa; --color-prettylights-syntax-carriage-return-bg: #cf222e; --color-prettylights-syntax-string-regexp: #116329; --color-prettylights-syntax-markup-list: #3b2300; --color-prettylights-syntax-markup-heading: #0550ae; --color-prettylights-syntax-markup-italic: #24292f; --color-prettylights-syntax-markup-bold: #24292f; --color-prettylights-syntax-markup-deleted-text: #82071e; --color-prettylights-syntax-markup-deleted-bg: #FFEBE9; --color-prettylights-syntax-markup-inserted-text: #116329; --color-prettylights-syntax-markup-inserted-bg: #dafbe1; --color-prettylights-syntax-markup-changed-text: #953800; --color-prettylights-syntax-markup-changed-bg: #ffd8b5; --color-prettylights-syntax-markup-ignored-text: #eaeef2; --color-prettylights-syntax-markup-ignored-bg: #0550ae; --color-prettylights-syntax-meta-diff-range: #8250df; --color-prettylights-syntax-brackethighlighter-angle: #57606a; --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f; --color-prettylights-syntax-constant-other-reference-link: #0a3069; --color-fg-default: #24292f; --color-fg-muted: #57606a; --color-fg-subtle: #6e7781; --color-canvas-default: #ffffff; --color-canvas-subtle: #f6f8fa; --color-border-default: #d0d7de; --color-border-muted: hsla(210,18%,87%,1); --color-neutral-muted: rgba(175,184,193,0.2); --color-accent-fg: #0969da; --color-accent-emphasis: #0969da; --color-attention-subtle: #fff8c5; --color-danger-fg: #cf222e; }
 [data-color-mode*='dark'], [data-color-mode*='dark'] body, .markdown-style[theme*='dark'] { --color-prettylights-syntax-comment: #8b949e; --color-prettylights-syntax-constant: #79c0ff; --color-prettylights-syntax-entity: #d2a8ff; --color-prettylights-syntax-storage-modifier-import: #c9d1d9; --color-prettylights-syntax-entity-tag: #7ee787; --color-prettylights-syntax-keyword: #ff7b72; --color-prettylights-syntax-string: #a5d6ff; --color-prettylights-syntax-variable: #ffa657; --color-prettylights-syntax-brackethighlighter-unmatched: #f85149; --color-prettylights-syntax-invalid-illegal-text: #f0f6fc; --color-prettylights-syntax-invalid-illegal-bg: #8e1519; --color-prettylights-syntax-carriage-return-text: #f0f6fc; --color-prettylights-syntax-carriage-return-bg: #b62324; --color-prettylights-syntax-string-regexp: #7ee787; --color-prettylights-syntax-markup-list: #f2cc60; --color-prettylights-syntax-markup-heading: #1f6feb; --color-prettylights-syntax-markup-italic: #c9d1d9; --color-prettylights-syntax-markup-bold: #c9d1d9; --color-prettylights-syntax-markup-deleted-text: #ffdcd7; --color-prettylights-syntax-markup-deleted-bg: #67060c; --color-prettylights-syntax-markup-inserted-text: #aff5b4; --color-prettylights-syntax-markup-inserted-bg: #033a16; --color-prettylights-syntax-markup-changed-text: #ffdfb6; --color-prettylights-syntax-markup-changed-bg: #5a1e02; --color-prettylights-syntax-markup-ignored-text: #c9d1d9; --color-prettylights-syntax-markup-ignored-bg: #1158c7; --color-prettylights-syntax-meta-diff-range: #d2a8ff; --color-prettylights-syntax-brackethighlighter-angle: #8b949e; --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58; --color-prettylights-syntax-constant-other-reference-link: #a5d6ff; --color-fg-default: #c9d1d9; --color-fg-muted: #8b949e; --color-fg-subtle: #484f58; --color-canvas-default: #0d1117; --color-canvas-subtle: #161b22; --color-border-default: #30363d; --color-border-muted: #21262d; --color-neutral-muted: rgba(110,118,129,0.4); --color-accent-fg: #58a6ff; --color-accent-emphasis: #1f6feb; --color-attention-subtle: rgba(187,128,9,0.15); --color-danger-fg: #f85149; }
@@ -123,7 +126,7 @@ dark-mode {
     `;s.appendChild(a)}i(t,e){this.dispatchEvent(new CustomEvent(t,{bubbles:true,composed:true,detail:e}))}}customElements.define("dark-mode",a);</script><div style="max-width: 960px; margin: 0 auto 60px auto; padding: 8px;max-width: 960px;" class="markdown-style">
     <h1 id="hi-im-maud"><a class="anchor" aria-hidden="true" tabindex="-1" href="#hi-im-maud"><span class="octicon octicon-link"></span></a>Hi, I'm Maud.</h1>
     <p>I'm a <strong>Developer Relations Engineer</strong> at Google working on Chrome.</p>
-    <p>Today, my focus is on <strong>🔐 web security, privacy and AI.</strong></p>
+    <p>Today, my focus is on <strong>web security, privacy and AI.</strong></p>
     <p align="center">
       <img width="350" alt="A screenshot of multicolor triangles implemented through 3d programming in C++" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/triangles.jpg?raw=true"><br><sup>How it all started! Qt/OpenGL with C++.</sup>
     </p>
@@ -133,11 +136,11 @@ dark-mode {
     </p>
     <p>
       I then moved into Developer Relations Engineering.
-      I love being a <strong>bridge between developers and product/eng teams</strong>. I build developer tools, write demos and docs, run developer research, design dev tooling solutions, and channel feedback to product teams.
+      I love being a <strong>bridge between developers and product/eng teams</strong>. I build developer tools, write demos and docs, run developer research, find DevX bugs and pain points, design solutions, and channel feedback to product teams.
       I also speak at conferences.
     </p>
     <p>In the physical world, I live in Paris. You can find me roaming around taking street photos. Online, find me on <a href="https://bsky.app/profile/maudnals.bsky.social">BlueSky</a> and <a href="https://www.linkedin.com/in/maudnalpas/">LinkedIn</a> (previously on <a href="https://x.com/maudnals?lang=en">X</a>).</p>
-    <h2 id="-open-source-demos"><a class="anchor" aria-hidden="true" tabindex="-1" href="#-open-source-demos"><span class="octicon octicon-link"></span></a>⭐ Open-source demos</h2>
+    <h2 id="-open-source-demos-and-tools"><a class="anchor" aria-hidden="true" tabindex="-1" href="#-open-source-demos-and-tools"><span class="octicon octicon-link"></span></a>⭐ Open-source demos and tools</h2>
     <h3 id="security-privacy-authentication"><a class="anchor" aria-hidden="true" tabindex="-1" href="#security-privacy-authentication"><span class="octicon octicon-link"></span></a>Security, Privacy, Authentication</h3>
     <ul>
       <li>Autofill observer: <a href="TBD">Code</a> • <a href="https://chrome.dev/web-identity-demos/autofill-observer-demo/address.html">Live demo</a></li>
@@ -152,17 +155,41 @@ dark-mode {
       <li>Product review suggestions: <a href="https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-suggestions">Code</a> • <a href="https://chrome.dev/web-ai-demos/product-reviews-suggestions/">Live demo</a></li>
       <li>Performance tups for client-side AI: <a href="">Code</a> • <a href="https://chrome.dev/web-ai-demos/perf-client-side-gemma-worker/">Live demo</a></li>
     </ul>
-    <h2 id="-developer-tooling"><a class="anchor" aria-hidden="true" tabindex="-1" href="#-developer-tooling"><span class="octicon octicon-link"></span></a>👩🏻‍💻 Developer tooling</h2>
+    <h3 id="developer-tooling"><a class="anchor" aria-hidden="true" tabindex="-1" href="#developer-tooling"><span class="octicon octicon-link"></span></a>Developer tooling</h3>
     <ul>
       <li>strict-csp-html-webpack-plugin: A webpack plugin that configures a strict, hash-based CSP for a single-page application. It uses the strict-csp library to form a CSP and hooks into the popular HtmlWebpackPlugin to set up this CSP as a meta HTML tag. <a href="https://github.com/google/strict-csp/tree/main/strict-csp-html-webpack-plugin">Source code</a> • <a href="https://www.npmjs.com/package/strict-csp-html-webpack-plugin">npm entry</a></li>
       <li>noise-lab: A tool to onboard and experiment with summary reports and noise in <a href="https://developers.google.com/privacy-sandbox/private-advertising">Privacy Sandbox Measurement APIs</a>. <a href="https://github.com/privacysandbox/noise-lab">Source code</a> • <a href="https://developer.chrome.com/docs/privacy-sandbox/summary-reports/design-decisions/">Docs</a></li>
-    </ul>
-    <h2 id="-other-devx-work"><a class="anchor" aria-hidden="true" tabindex="-1" href="#-other-devx-work"><span class="octicon octicon-link"></span></a>🔎 Other DevX work</h2>
-    <ul>
       <li>I <a href="https://issues.chromium.org/issues?q=reporter:maudn@chromium.org">advocate / file bugs for DevX improvement in Chrome DevTools and Chrome browser</a>.</li>
-      <li>I bridged external devs with internal teams to land DevX improvements, like for example <a href="https://github.com/privacysandbox/privacy-sandbox-dev-support/issues/41">here</a>.</li>
+    </ul>
+    <h2 id="-developer-research-and-communication"><a class="anchor" aria-hidden="true" tabindex="-1" href="#-developer-research-and-communication"><span class="octicon octicon-link"></span></a>👩🏻‍💻 Developer research and communication</h2>
+    <ul>
+      <li>I bridge external devs with internal teams to land DevX improvements, like for example <a href="https://github.com/privacysandbox/privacy-sandbox-dev-support/issues/41">here</a>.</li>
       <li>I research <a href="https://web.dev/blog/ai-chats-and-takeaways">what web developers think about AI</a>.</li>
       <li>I <a href="https://groups.google.com/u/0/a/chromium.org/g/attribution-reporting-api-dev/search?q=maud%20nalpas">drive technical outreach</a> with all early testers of a privacy-preserving web API for ad conversion measurement.</li>
+    </ul>
+    <h2 id="️-articles-and-docs-selection"><a class="anchor" aria-hidden="true" tabindex="-1" href="#️-articles-and-docs-selection"><span class="octicon octicon-link"></span></a>✏️ Articles and docs (selection)</h2>
+    <h3 id="security-privacy-authentication-1"><a class="anchor" aria-hidden="true" tabindex="-1" href="#security-privacy-authentication-1"><span class="octicon octicon-link"></span></a>Security, Privacy, Authentication</h3>
+    <ul>
+      <li><a href="https://web.dev/articles/autofill-measure">Measure browser autofill on your forms</a></li>
+      <li><a href="https://www.linkedin.com/posts/maudnalpas_help-your-users-sign-in-smoothly-with-seamless-activity-7257724717015478272-ypoC">Seamless credential sharing</a></li>
+      <li>Full guide on server-side passkey implementation: <a href="https://developers.google.com/identity/passkeys/developer-guides/server-introduction">Part 1</a>, <a href="https://developers.google.com/identity/passkeys/developer-guides/server-registration">Part 2</a>, <a href="https://developers.google.com/identity/passkeys/developer-guides/server-authentication">Part 3</a>, <a href="https://www.linkedin.com/posts/chrome-for-developers_passkeysweek-activity-7264427159430000640-zBHX">Social media post</a></li>
+      <li><a href="https://web.dev/articles/webauthn-related-origin-requests">Passkey reuse across sites</a></li>
+      <li>HTTPS for local development: <a href="https://web.dev/articles/when-to-use-local-https">When</a> and <a href="https://web.dev/articles/how-to-use-local-https">How</a></li>
+      <li><a href="https://web.dev/articles/referrer-best-practices">Referrer and Referrer-Policy best practices</a></li>
+      <li><a href="https://developer.chrome.com/docs/capabilities/web-apis/reporting-api">Reporting API</a></li>
+      <li><a href="https://developer.chrome.com/blog/one-time-permissions">Chrome's move to one-time permissions</a></li>
+      <li><a href="https://web.dev/articles/security-headers">Security headers quick reference</a></li>
+      <li><a href="https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-debugging/">Debugging guide for Attribution Reporting</a></li>
+      <li><a href="https://developer.chrome.com/authors/maudn/">Attribution Reporting series</a></li>
+      <li><a href="https://developers.google.com/codelabs/webauthn-2fa-key#0">Secure your site with two-factor authentication with a security key (WebAuthn)</a></li>
+      <li><a href="https://www.youtube.com/results?search_query=noise+lab+maud+nalpas">[Video series] Tutorial: Noise Lab</a></li>
+    </ul>
+    <h3 id="ai-1"><a class="anchor" aria-hidden="true" tabindex="-1" href="#ai-1"><span class="octicon octicon-link"></span></a>AI</h3>
+    <ul>
+      <li>2-part developer guide on client-side toxicity detection: <a href="https://web.dev/articles/ai-detect-toxicity-context">Part 1</a>, <a href="https://web.dev/articles/ai-detect-toxicity-build">Part 2</a>, <a href="https://www.linkedin.com/posts/maudnalpas_ai-webai-toxicity-activity-7262487002875416576-jsMP/">Social media post</a></li>
+      <li><a href="https://web.dev/articles/llm-sizes">Understand LLM sizes</a></li>
+      <li><a href="https://web.dev/articles/practical-prompt-engineering">Practical prompt engineering for smaller LLMs</a></li>
+      <li>[Improve performance and UX for client-side AI](<a href="https://web.dev/articles/client-side-ai-performanc">https://web.dev/articles/client-side-ai-performanc</a></li>
     </ul>
     <h2 id="️-talks"><a class="anchor" aria-hidden="true" tabindex="-1" href="#️-talks"><span class="octicon octicon-link"></span></a>🎙️ Talks</h2>
     <table>
@@ -221,34 +248,6 @@ dark-mode {
     <p align="center">
       <img width="350" alt="Audience watching Maud&#x27;s passkey talk in Paris" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/dotJS.jpeg?raw=true"><br><sup>DotJS stage, 1000+ live attendees. 2024, Paris.</sup>
     </p>
-    <h2 id="️-articles-and-docs-selection"><a class="anchor" aria-hidden="true" tabindex="-1" href="#️-articles-and-docs-selection"><span class="octicon octicon-link"></span></a>✏️ Articles and docs (selection)</h2>
-    <ul>
-      <li>Security/Privacy/Authentication:
-        <ul>
-          <li><a href="https://web.dev/articles/autofill-measure">Measure browser autofill on your forms</a></li>
-          <li><a href="https://www.linkedin.com/posts/maudnalpas_help-your-users-sign-in-smoothly-with-seamless-activity-7257724717015478272-ypoC">Seamless credential sharing</a></li>
-          <li>Full guide on server-side passkey implementation: <a href="https://developers.google.com/identity/passkeys/developer-guides/server-introduction">Part 1</a>, <a href="https://developers.google.com/identity/passkeys/developer-guides/server-registration">Part 2</a>, <a href="https://developers.google.com/identity/passkeys/developer-guides/server-authentication">Part 3</a>, <a href="https://www.linkedin.com/posts/chrome-for-developers_passkeysweek-activity-7264427159430000640-zBHX">Social media post</a></li>
-          <li><a href="https://web.dev/articles/webauthn-related-origin-requests">Passkey reuse across sites</a></li>
-          <li>HTTPS for local development: <a href="https://web.dev/articles/when-to-use-local-https">When</a> and <a href="https://web.dev/articles/how-to-use-local-https">How</a></li>
-          <li><a href="https://web.dev/articles/referrer-best-practices">Referrer and Referrer-Policy best practices</a></li>
-          <li><a href="https://developer.chrome.com/docs/capabilities/web-apis/reporting-api">Reporting API</a></li>
-          <li><a href="https://developer.chrome.com/blog/one-time-permissions">Chrome's move to one-time permissions</a></li>
-          <li><a href="https://web.dev/articles/security-headers">Security headers quick reference</a></li>
-          <li><a href="https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-debugging/">Debugging guide for Attribution Reporting</a></li>
-          <li><a href="https://developer.chrome.com/authors/maudn/">Attribution Reporting series</a></li>
-          <li><a href="https://developers.google.com/codelabs/webauthn-2fa-key#0">Secure your site with two-factor authentication with a security key (WebAuthn)</a></li>
-          <li><a href="https://www.youtube.com/results?search_query=noise+lab+maud+nalpas">[Video series] Tutorial: Noise Lab</a></li>
-        </ul>
-      </li>
-      <li>AI:
-        <ul>
-          <li>2-part developer guide on client-side toxicity detection: <a href="https://web.dev/articles/ai-detect-toxicity-context">Part 1</a>, <a href="https://web.dev/articles/ai-detect-toxicity-build">Part 2</a>, <a href="https://www.linkedin.com/posts/maudnalpas_ai-webai-toxicity-activity-7262487002875416576-jsMP/">Social media post</a></li>
-          <li><a href="https://web.dev/articles/llm-sizes">Understand LLM sizes</a></li>
-          <li><a href="https://web.dev/articles/practical-prompt-engineering">Practical prompt engineering for smaller LLMs</a></li>
-          <li><a href="https://web.dev/articles/client-side-ai-performance">Improve performance and UX for client-side AI</a></li>
-        </ul>
-      </li>
-    </ul>
     <h2 id="-community"><a class="anchor" aria-hidden="true" tabindex="-1" href="#-community"><span class="octicon octicon-link"></span></a>💙 Community</h2>
     <p>I drive and advocate for hosting tech events for underrepresented groups:</p>
     <ul>
