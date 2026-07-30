@@ -66,10 +66,11 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 
 ### AI
 
+- [Full course on AI evals](https://developer.chrome.com/docs/ai/evals) (with [code repository](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/evals-course))
 - 2-part developer guide on client-side toxicity detection: [Part 1](https://web.dev/articles/ai-detect-toxicity-context), [Part 2](https://web.dev/articles/ai-detect-toxicity-build), [Social media post](https://www.linkedin.com/posts/maudnalpas_ai-webai-toxicity-activity-7262487002875416576-jsMP/)
 - [Understand LLM sizes](https://web.dev/articles/llm-sizes)
 - [Practical prompt engineering for smaller LLMs](https://web.dev/articles/practical-prompt-engineering)
-- [Improve performance and UX for client-side AI](https://web.dev/articles/client-side-ai-performanc
+- [Improve performance and UX for client-side AI](https://web.dev/articles/client-side-ai-performance)
 
 ## 🎙️ Talks
 
@@ -105,6 +106,7 @@ I drive and advocate for hosting tech events for underrepresented groups:
 
 ## 🤝 Misc OSS contributions
 
+- I [make key contributions to the WebMCP evals CLI](https://github.com/GoogleChromeLabs/webmcp-tools), improving developer experience and helping developers analyze the results of tool calling evaluations 
 - I [added one-time permission implementation](https://github.com/chromium/permission.site/commits?author=maudnals) to the Chrome permissions public demo
 - I [contributed dev guidance](https://github.com/passkeydeveloper/passkeys.dev/commits?author=maudnals) to passkeys.dev
 - I [improved onboarding docs](https://github.com/breadboard-ai/breadboard/commits?author=maudnals) for a Gen AI prototyping tool
