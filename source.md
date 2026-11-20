@@ -2,7 +2,7 @@
 
 I'm a **Developer Relations Engineer** at Google working on Chrome.
 
-Today, my focus is on **web security, privacy and AI.**
+I focus on building **trustworthy web and AI systems**, bridging **web security, privacy, AI evals, and developer experience**.
 
 <p align="center">
   <img width="350" height="255" alt="A screenshot of multicolor triangles implemented through 3d programming in C++" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/triangles.jpg?raw=true"><br/>
@@ -10,29 +10,33 @@ Today, my focus is on **web security, privacy and AI.**
 </p>
 
 I started coding with C++ in 2013 and was quickly drawn to the **web**.
-Since 2015, I've built many web products using **JavaScript**, **TypeScript**, React, and React Native. I also had a fun stint as a **UX/UI designer**.
+Since 2015, I've built web products with **JavaScript**, **TypeScript**, React, and React Native. I also had a fun stint as a **UX/UI designer**.
 
-I then moved into Developer Relations Engineering.
-I love being a **bridge between developers and product/eng teams**. I build developer tools, write demos and docs, run developer research, find DevX bugs and pain points, design solutions, and channel feedback to product teams.
-I also speak at conferences.
+Today, I love being a **bridge between developers and product/eng teams**: building developer tools and eval workflows, writing demos and docs, running developer research, tracking down DevX bugs, and speaking at conferences.
 
-In the physical world, I live in Paris. You can find me roaming around taking street photos. Online, find me on [BlueSky](https://bsky.app/profile/maudnals.bsky.social) and [LinkedIn](https://www.linkedin.com/in/maudnalpas/) (previously on [X](https://x.com/maudnals?lang=en)).
+In the physical world, I live in Paris. You can find me roaming around taking street photos and tinkering with creative coding. Online, find me on [Bluesky](https://bsky.app/profile/maudnals.bsky.social) and [LinkedIn](https://www.linkedin.com/in/maudnalpas/) (previously on [X](https://x.com/maudnals?lang=en)).
+
+## ✨ Selected work
+
+- **WebMCP Evals CLI:** Key contributor to the open-source CLI helping developers run and analyze tool-calling evaluations for agentic web apps. [Code](https://github.com/GoogleChromeLabs/webmcp-tools)
+- **AI Evals for Web Developers:** Full hands-on course on evaluating AI features reliably instead of relying on vibes. [Course](https://developer.chrome.com/docs/ai/evals) • [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/evals-course)
+- **Web Security & Passwordless Auth:** Built `strict-csp-html-webpack-plugin` for hash-based XSS protection and authored Google's server-side Passkeys implementation guide. [strict-csp](https://github.com/google/strict-csp/tree/main/strict-csp-html-webpack-plugin) • [Passkeys guide](https://developers.google.com/identity/passkeys/developer-guides/server-introduction)
+- **Client-side AI & Creative Experiments:** Built browser-based AI demos (like client-side toxicity detection) alongside side projects like `artplz` (paintings rendered in your terminal). [Toxicity demo](https://chrome.dev/web-ai-demos/toxic-review-warning/) • [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/toxic-review-warning) • [artplz](https://github.com/maudnals/artplz)
 
 ## ⭐ Open-source demos and tools
-
-### Security, Privacy, Authentication
-
-- Autofill observer: [Code](TBD) • [Live demo](https://chrome.dev/web-identity-demos/autofill-observer-demo/address.html)
-- [Reporting API](https://developer.chrome.com/docs/capabilities/web-apis/reporting-api#demo_and_code)
-- [ROR (Passkey reuse across sites)](https://web.dev/articles/webauthn-related-origin-requests#demo)
-- [2FA with WebAuthn and a secuity key](https://webauthn-2fa.glitch.me/)
 
 ### AI
 
 - Toxicity warning with client-side AI: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/toxic-review-warning) • [Live demo](https://chrome.dev/web-ai-demos/toxic-review-warning/)
 - Product review autorating with client-side AI: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-auto-rating-io) • [Live demo](https://chrome.dev/web-ai-demos/product-reviews/)
-- Product review suggestions: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-suggestions) • [Live demo](https://chrome.dev/web-ai-demos/product-reviews-suggestions/)
-- Performance tups for client-side AI: [Code]() • [Live demo](https://chrome.dev/web-ai-demos/perf-client-side-gemma-worker/)
+- Product review suggestions: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-suggestions) • [Live demo](https://chrome.dev/web-ai-demos/product-review-suggestions/)
+- Performance tips for client-side AI: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/perf-worker-gemma) • [Live demo](https://chrome.dev/web-ai-demos/perf-client-side-gemma-worker/)
+
+### Security, Privacy, Authentication
+
+- Autofill observer: [Code](https://github.com/GoogleChromeLabs/web-identity-demos/tree/main/autofill-observer-demo) • [Live demo](https://chrome.dev/web-identity-demos/autofill-observer-demo/address.html)
+- [Reporting API](https://developer.chrome.com/docs/capabilities/web-apis/reporting-api#demo_and_code)
+- [ROR (Passkey reuse across sites)](https://web.dev/articles/webauthn-related-origin-requests#demo)
 
 ### Developer tooling
 
@@ -48,6 +52,14 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 
 ## ✏️ Articles and docs (selection)
 
+### AI
+
+- [Full course on AI evals](https://developer.chrome.com/docs/ai/evals) (with [code repository](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/evals-course))
+- 2-part developer guide on client-side toxicity detection: [Part 1](https://web.dev/articles/ai-detect-toxicity-context), [Part 2](https://web.dev/articles/ai-detect-toxicity-build), [Social media post](https://www.linkedin.com/posts/maudnalpas_ai-webai-toxicity-activity-7262487002875416576-jsMP/)
+- [Understand LLM sizes](https://web.dev/articles/llm-sizes)
+- [Practical prompt engineering for smaller LLMs](https://web.dev/articles/practical-prompt-engineering)
+- [Improve performance and UX for client-side AI](https://web.dev/articles/client-side-ai-performance)
+
 ### Security, Privacy, Authentication
 
 - [Measure browser autofill on your forms](https://web.dev/articles/autofill-measure)
@@ -60,17 +72,9 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 - [Chrome's move to one-time permissions](https://developer.chrome.com/blog/one-time-permissions)
 - [Security headers quick reference](https://web.dev/articles/security-headers)
 - [Debugging guide for Attribution Reporting](https://developer.chrome.com/docs/privacy-sandbox/attribution-reporting-debugging/)
-- [Attribution Reporting series](https://developer.chrome.com/authors/maudn/)
+- [Attribution Reporting docs](https://privacysandbox.google.com/private-advertising/attribution-reporting)
 - [Secure your site with two-factor authentication with a security key (WebAuthn)](https://developers.google.com/codelabs/webauthn-2fa-key#0)
 - [[Video series] Tutorial: Noise Lab](https://www.youtube.com/results?search_query=noise+lab+maud+nalpas)
-
-### AI
-
-- [Full course on AI evals](https://developer.chrome.com/docs/ai/evals) (with [code repository](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/evals-course))
-- 2-part developer guide on client-side toxicity detection: [Part 1](https://web.dev/articles/ai-detect-toxicity-context), [Part 2](https://web.dev/articles/ai-detect-toxicity-build), [Social media post](https://www.linkedin.com/posts/maudnalpas_ai-webai-toxicity-activity-7262487002875416576-jsMP/)
-- [Understand LLM sizes](https://web.dev/articles/llm-sizes)
-- [Practical prompt engineering for smaller LLMs](https://web.dev/articles/practical-prompt-engineering)
-- [Improve performance and UX for client-side AI](https://web.dev/articles/client-side-ai-performance)
 
 ## 🎙️ Talks
 
@@ -84,8 +88,8 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 | [Passkeys, autofill, 3P cookies: the Web in 2023](https://www.linkedin.com/feed/update/urn:li:activity:6930220375825915905/)                                    |                    🇩🇪 Berlin GDE Summit · 2023 |
 | [The hitchhiker's guide to web privacy](https://www.youtube.com/watch?v=9UgS81AaMU4)                                                                            | 🇳🇱🇫🇷 Fronteers Utrecht + DevFest Nantes · 2022 |
 | [HAUNTED: Chrome's vision for post-Spectre web development](https://snyk.io/videos/haunted-chromes-vision-post-spectre-web-development/)                        |                       🕸️ SnykCon online · 2021 |
-| [Introducing the privacy budget](https://www.youtube.com/watch?v=0STgfjSA6T8)                                                                                   |     🕸️ Chrome Developers Summmit online · 2020 |
 | [Prepare for a more private web](https://www.youtube.com/watch?v=1g2uQfP1Q3U)                                                                                   |                    🕸️ Google I/O online · 2021 |
+| [Introducing the privacy budget](https://www.youtube.com/watch?v=0STgfjSA6T8)                                                                                   |      🕸️ Chrome Developers Summit online · 2020 |
 
 <p align="center">
   <img width="350" alt="Audience watching Maud's security talk in Japan" src="https://github.com/maudnals/maudnals.github.io/blob/main/images/tech-night-talk-japan.jpg?raw=true"><br/>
@@ -106,7 +110,6 @@ I drive and advocate for hosting tech events for underrepresented groups:
 
 ## 🤝 Misc OSS contributions
 
-- I [make key contributions to the WebMCP evals CLI](https://github.com/GoogleChromeLabs/webmcp-tools), improving developer experience and helping developers analyze the results of tool calling evaluations 
 - I [added one-time permission implementation](https://github.com/chromium/permission.site/commits?author=maudnals) to the Chrome permissions public demo
 - I [contributed dev guidance](https://github.com/passkeydeveloper/passkeys.dev/commits?author=maudnals) to passkeys.dev
 - I [improved onboarding docs](https://github.com/breadboard-ai/breadboard/commits?author=maudnals) for a Gen AI prototyping tool
@@ -114,7 +117,7 @@ I drive and advocate for hosting tech events for underrepresented groups:
 - I coordinated a [full course on web privacy](https://web.dev/learn/privacy)
 - I filed a [common issue](https://github.com/huggingface/transformers.js/issues/366) on Transformers.js
 
-## 🥤 Fun! Fun!
+## 🎨 Creative coding & fun
 
 - [artplz](https://github.com/maudnals/artplz): Art in your terminal! It's dynamic, and should work with any painter you enter as a CLI argument. Under the hood, there's a Wikipedia scraper.
 - [cssunrise](https://github.com/maudnals/csssunrise): A 1-minute sunrise in CSS.
