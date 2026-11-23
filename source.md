@@ -16,7 +16,7 @@ Today, I love being a **bridge between developers and product/eng teams**: build
 
 In the physical world, I live in Paris. You can find me roaming around taking street photos and tinkering with creative coding. Online, find me on [Bluesky](https://bsky.app/profile/maudnals.bsky.social) and [LinkedIn](https://www.linkedin.com/in/maudnalpas/) (previously on [X](https://x.com/maudnals?lang=en)).
 
-## ✨ Selected work
+## 📍 Selected work
 
 - **WebMCP Security (reference demo + video):** Led Chrome's WebMCP security guidance for web developers, turning indirect prompt injection and security UX risks into practical patterns developers can ship. I built Chrome's reference security demo including interactive attack scenarios, which Chrome's WebMCP security engineers use directly to test and demonstrate protections working. I authored Chrome's flagship video on building safer WebMCP tools. [Live demo](https://googlechromelabs.github.io/webmcp-tools/demos/smart-home/) • [Security scenarios](https://github.com/GoogleChromeLabs/webmcp-tools/tree/main/demos/smart-home#-security-scenarios) • [Video](https://www.youtube.com/watch?v=YCOy5uGJnQA)
 - **WebMCP Evals (2M+ views):** I authored and filmed Chrome's flagship video on evaluating WebMCP tools (2M+ views!) and contributed to the open-source WebMCP evals CLI for testing tool calling. [Video](https://www.youtube.com/watch?v=2jb6D2yhdis) • [CLI code](https://github.com/GoogleChromeLabs/webmcp-tools/tree/main/webmcp-evals) • [My PRs](https://github.com/GoogleChromeLabs/webmcp-tools/pulls?q=is%3Apr+is%3Aclosed+author%3Amaudnals)
