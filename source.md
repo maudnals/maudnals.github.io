@@ -18,15 +18,17 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 
 ## ✨ Selected work
 
-- **WebMCP Evals CLI:** Key contributor to the open-source CLI helping developers run and analyze tool-calling evaluations for agentic web apps. [Code](https://github.com/GoogleChromeLabs/webmcp-tools)
-- **AI Evals for Web Developers:** Full hands-on course on evaluating AI features reliably instead of relying on vibes. [Course](https://developer.chrome.com/docs/ai/evals) • [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/evals-course)
+- **WebMCP Security (reference demo + video):** Led Chrome's WebMCP security guidance for web developers, turning indirect prompt injection and security UX risks into practical patterns developers can ship. I built Chrome's reference security demo including interactive attack scenarios, which Chrome's WebMCP security engineers use directly to test and demonstrate protections working. I authored Chrome's flagship video on building safer WebMCP tools. [Live demo](https://googlechromelabs.github.io/webmcp-tools/demos/smart-home/) • [Security scenarios](https://github.com/GoogleChromeLabs/webmcp-tools/tree/main/demos/smart-home#-security-scenarios) • [Video](https://www.youtube.com/watch?v=YCOy5uGJnQA)
+- **WebMCP Evals (2M+ views):** I authored and filmed Chrome's flagship video on evaluating WebMCP tools (2M+ views!) and contributed to the open-source WebMCP evals CLI for testing tool calling. [Video](https://www.youtube.com/watch?v=2jb6D2yhdis) • [CLI code](https://github.com/GoogleChromeLabs/webmcp-tools/tree/main/webmcp-evals) • [My PRs](https://github.com/GoogleChromeLabs/webmcp-tools/pulls?q=is%3Apr+is%3Aclosed+author%3Amaudnals)
+- **AI Evals for Web Developers (40k+ views):** Launched a hands-on course, companion repo, and YouTube Shorts series on testing AI features instead of relying on vibes. [Course](https://developer.chrome.com/docs/ai/evals) • [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/evals-course) • [Shorts](https://www.youtube.com/shorts/WufG1eBT0dU)
 - **Web Security & Passwordless Auth:** Built `strict-csp-html-webpack-plugin` for hash-based XSS protection and authored Google's server-side Passkeys implementation guide. [strict-csp](https://github.com/google/strict-csp/tree/main/strict-csp-html-webpack-plugin) • [Passkeys guide](https://developers.google.com/identity/passkeys/developer-guides/server-introduction)
-- **Client-side AI & Creative Experiments:** Built browser-based AI demos (like client-side toxicity detection) alongside side projects like `artplz` (paintings rendered in your terminal). [Toxicity demo](https://chrome.dev/web-ai-demos/toxic-review-warning/) • [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/toxic-review-warning) • [artplz](https://github.com/maudnals/artplz)
 
 ## ⭐ Open-source demos and tools
 
-### AI
+### AI & Agent Security
 
+- WebMCP Smart Home security reference demo (indirect prompt injection + security hint toggles, used directly by Chrome's WebMCP security engineers to test and demonstrate protections): [Live demo](https://googlechromelabs.github.io/webmcp-tools/demos/smart-home/) • [Security scenarios](https://github.com/GoogleChromeLabs/webmcp-tools/tree/main/demos/smart-home#-security-scenarios)
+- WebMCP evals CLI (key contributions to tool-calling evaluation DevX): [Code](https://github.com/GoogleChromeLabs/webmcp-tools/tree/main/webmcp-evals) • [My PRs](https://github.com/GoogleChromeLabs/webmcp-tools/pulls?q=is%3Apr+is%3Aclosed+author%3Amaudnals)
 - Toxicity warning with client-side AI: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/toxic-review-warning) • [Live demo](https://chrome.dev/web-ai-demos/toxic-review-warning/)
 - Product review autorating with client-side AI: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-auto-rating-io) • [Live demo](https://chrome.dev/web-ai-demos/product-reviews/)
 - Product review suggestions: [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/product-review-suggestions) • [Live demo](https://chrome.dev/web-ai-demos/product-review-suggestions/)
@@ -46,15 +48,19 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 
 ## 👩🏻‍💻 Developer research and communication
 
+- I build internal tooling to turn scattered developer feedback and field notes into structured, searchable insights for Chrome product teams.
 - I bridge external devs with internal teams to land DevX improvements, like for example [here](https://github.com/privacysandbox/privacy-sandbox-dev-support/issues/41).
 - I research [what web developers think about AI](https://web.dev/blog/ai-chats-and-takeaways).
 - I [drive technical outreach](https://groups.google.com/u/0/a/chromium.org/g/attribution-reporting-api-dev/search?q=maud%20nalpas) with all early testers of a privacy-preserving web API for ad conversion measurement.
 
-## ✏️ Articles and docs (selection)
+## ✏️ Articles, guides, and videos (selection)
 
-### AI
+### AI & WebMCP
 
-- [Full course on AI evals](https://developer.chrome.com/docs/ai/evals) (with [code repository](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/evals-course))
+- [[Video] How to evaluate your WebMCP tools](https://www.youtube.com/watch?v=2jb6D2yhdis) (2M+ views)
+- [[Video] How to build safer WebMCP tools for AI agents](https://www.youtube.com/watch?v=YCOy5uGJnQA)
+- [Full course on AI evals](https://developer.chrome.com/docs/ai/evals) with [code repository](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/evals-course) and YouTube Shorts (40k+ views: [Intro](https://www.youtube.com/shorts/WufG1eBT0dU), [Design](https://www.youtube.com/shorts/m91Gj3efqjE), [Mental model](https://www.youtube.com/shorts/ji08ILsXQ7M))
+- [Built-in AI best practices](https://developer.chrome.com/docs/ai/built-in-ai-dos-donts)
 - 2-part developer guide on client-side toxicity detection: [Part 1](https://web.dev/articles/ai-detect-toxicity-context), [Part 2](https://web.dev/articles/ai-detect-toxicity-build), [Social media post](https://www.linkedin.com/posts/maudnalpas_ai-webai-toxicity-activity-7262487002875416576-jsMP/)
 - [Understand LLM sizes](https://web.dev/articles/llm-sizes)
 - [Practical prompt engineering for smaller LLMs](https://web.dev/articles/practical-prompt-engineering)
@@ -101,12 +107,13 @@ In the physical world, I live in Paris. You can find me roaming around taking st
   <sup>DotJS stage, 1000+ live attendees. 2024, Paris.</sup>
 </p>
 
-## 💙 Community
+## 💙 Community & leadership
 
-I drive and advocate for hosting tech events for underrepresented groups:
-
-- [Women Techmakers Paris meetup](https://www.linkedin.com/posts/maudnalpas_ai-activity-7272590428141502465-jusB)
-- [Ladies of Code Paris meetup](https://www.linkedin.com/posts/maudnalpas_googleaihub-activity-7247235655427076097--lX7/)
+- **Women Engineers community at Google Paris (2026):** I led and grew our local community of 80+ engineers across Chrome, YouTube, Google DeepMind, and other teams. Bringing people together through monthly fireside chats, lunches, coffee chats, and office-wide events has been a highlight of my year, creating space to support one another and connecting me with top local engineers across Google.
+- **External Paris tech meetups:** I also build local developer community outside Google by organizing and hosting sold-out tech meetups in Paris (~70 attendees) for underrepresented groups and AI builders:
+  - [Women Techmakers Paris (Autumn 2026)](https://www.linkedin.com/feed/update/urn:li:activity:7511745656697372672/) and [earlier meetup](https://www.linkedin.com/posts/maudnalpas_ai-activity-7272590428141502465-jusB)
+  - [Duchess France x Dev With AI (Nov 2026)](https://luma.com/2krybbmv) ([Dev With AI listing](https://luma.com/dm22))
+  - [Ladies of Code Paris](https://www.linkedin.com/posts/maudnalpas_googleaihub-activity-7247235655427076097--lX7/)
 
 ## 🤝 Misc OSS contributions
 
