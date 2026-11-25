@@ -110,7 +110,7 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 ## 💙 Community & leadership
 
 - **Women Engineers community at Google Paris (2026):** I led and grew our local community of 80+ engineers across Chrome, YouTube, Google DeepMind, and other teams. Bringing people together through monthly fireside chats, lunches, coffee chats, and office-wide events has been a highlight of my year, creating space to support one another and connecting me with top local engineers across Google.
-- **External Paris tech meetups:** I also build local developer community outside Google by organizing and hosting sold-out tech meetups in Paris (~70 attendees) for underrepresented groups and AI builders:
+- **External Paris tech meetups:** I also build local developer community outside Google by organizing and hosting sold-out tech meetups in Paris (~70 attendees) for engineers, AI researchers, and ML experts:
   - [Women Techmakers Paris (Autumn 2026)](https://www.linkedin.com/feed/update/urn:li:activity:7511745656697372672/) and [earlier meetup](https://www.linkedin.com/posts/maudnalpas_ai-activity-7272590428141502465-jusB)
   - [Duchess France x Dev With AI (Nov 2026)](https://lnkd.in/p/eU9mJv-i)
   - [Ladies of Code Paris](https://www.linkedin.com/posts/maudnalpas_googleaihub-activity-7247235655427076097--lX7/)
