@@ -19,7 +19,7 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 ## 📍 Selected work
 
 - **WebMCP Security (reference demo + video):** Led Chrome's WebMCP security guidance for web developers, turning indirect prompt injection and security UX risks into practical patterns developers can ship. I built Chrome's reference security demo including interactive attack scenarios, which Chrome's WebMCP security engineers use directly to test and demonstrate protections working. I authored Chrome's flagship video on building safer WebMCP tools. [Live demo](https://googlechromelabs.github.io/webmcp-tools/demos/smart-home/) • [Security scenarios](https://github.com/GoogleChromeLabs/webmcp-tools/tree/main/demos/smart-home#-security-scenarios) • [Video](https://www.youtube.com/watch?v=YCOy5uGJnQA)
-- **WebMCP Evals (3 Million+ views):** I authored and filmed Chrome's flagship video on evaluating WebMCP tools (3 Million+ views) and contributed to the open-source WebMCP evals CLI for testing tool calling. [Video](https://www.youtube.com/watch?v=2jb6D2yhdis) • [CLI code](https://github.com/GoogleChromeLabs/webmcp-tools/tree/main/webmcp-evals) • [My PRs](https://github.com/GoogleChromeLabs/webmcp-tools/pulls?q=is%3Apr+is%3Aclosed+author%3Amaudnals)
+- **WebMCP Evals (4+ Million views):** I authored and filmed Chrome's flagship video on evaluating WebMCP tools (4+ Million views) and contributed to the open-source WebMCP evals CLI for testing tool calling. [Video](https://www.youtube.com/watch?v=2jb6D2yhdis) • [CLI code](https://github.com/GoogleChromeLabs/webmcp-tools/tree/main/webmcp-evals) • [My PRs](https://github.com/GoogleChromeLabs/webmcp-tools/pulls?q=is%3Apr+is%3Aclosed+author%3Amaudnals)
 - **AI Evals for Web Developers (40k+ views):** Launched a hands-on course, companion repo, and YouTube Shorts series on testing AI features instead of relying on vibes. [Course](https://developer.chrome.com/docs/ai/evals) • [Code](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/evals-course) • [Shorts](https://www.youtube.com/shorts/WufG1eBT0dU)
 - **Web Security & Passwordless Auth:** Built `strict-csp-html-webpack-plugin` for hash-based XSS protection and authored Google's server-side Passkeys implementation guide. [strict-csp](https://github.com/google/strict-csp/tree/main/strict-csp-html-webpack-plugin) • [Passkeys guide](https://developers.google.com/identity/passkeys/developer-guides/server-introduction)
 
@@ -57,7 +57,7 @@ In the physical world, I live in Paris. You can find me roaming around taking st
 
 ### AI & WebMCP
 
-- [[Video] How to evaluate your WebMCP tools](https://www.youtube.com/watch?v=2jb6D2yhdis) (2M+ views)
+- [[Video] How to evaluate your WebMCP tools](https://www.youtube.com/watch?v=2jb6D2yhdis) (4+ Million views)
 - [[Video] How to build safer WebMCP tools for AI agents](https://www.youtube.com/watch?v=YCOy5uGJnQA)
 - [Full course on AI evals](https://developer.chrome.com/docs/ai/evals) with [code repository](https://github.com/GoogleChromeLabs/web-ai-demos/tree/main/evals-course) and YouTube Shorts (40k+ views: [Intro](https://www.youtube.com/shorts/WufG1eBT0dU), [Design](https://www.youtube.com/shorts/m91Gj3efqjE), [Mental model](https://www.youtube.com/shorts/ji08ILsXQ7M))
 - [Built-in AI best practices](https://developer.chrome.com/docs/ai/built-in-ai-dos-donts)
